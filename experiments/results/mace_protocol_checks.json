@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 0,
+    "common_test_and_targets": true,
+    "no_test_file_in_training": true,
+    "disjoint_ids": true,
+    "test_rows": 991
+  },
+  {
+    "seed": 1,
+    "common_test_and_targets": true,
+    "no_test_file_in_training": true,
+    "disjoint_ids": true,
+    "test_rows": 992
+  },
+  {
+    "seed": 2,
+    "common_test_and_targets": true,
+    "no_test_file_in_training": true,
+    "disjoint_ids": true,
+    "test_rows": 993
+  },
+  {
+    "seed": 3,
+    "common_test_and_targets": true,
+    "no_test_file_in_training": true,
+    "disjoint_ids": true,
+    "test_rows": 990
+  },
+  {
+    "seed": 4,
+    "common_test_and_targets": true,
+    "no_test_file_in_training": true,
+    "disjoint_ids": true,
+    "test_rows": 994
+  }
+]

@@ -1,0 +1,3 @@
+protocol,comparison,n,mean_difference,ci_low,ci_high
+mace_repeated_subset,complete_rules minus no_cleaning,5,0.2905807081753602,0.2098029002605064,0.371358516090214
+mace_repeated_subset,full_gat minus complete_rules,5,-0.06515165705374623,-0.13205969307549875,0.001756378968006303

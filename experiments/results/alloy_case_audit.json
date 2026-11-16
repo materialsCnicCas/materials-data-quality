@@ -1,0 +1,1216 @@
+[
+  {
+    "dataset": "alloy185",
+    "n": 185,
+    "source_file": "C:\\Users\\admin\\Desktop\\DATAVALUE-FINAL\\论文\\实验案例\\数据\\文献收集.xlsx",
+    "source_sha256": "f54a3aca388e3aab625989391d2886cc3321f70e1fa81378f815b5fad80941e8",
+    "process_columns_absent": [
+      "Hom-T",
+      "Hom-t",
+      "Def-T",
+      "Def-r",
+      "AnnI-T",
+      "AnnI-t",
+      "Rol-T",
+      "Rol-rate",
+      "AnnII-T",
+      "AnnII-t",
+      "Age-T",
+      "Age-t"
+    ],
+    "FE_above_100": 2,
+    "missing_FE": 68,
+    "missing_UTS": 12,
+    "property_spread_groups": 15,
+    "confirmed_source_errors": 0,
+    "spread_groups": [
+      {
+        "field": "UTS",
+        "excel_rows": [
+          23,
+          58
+        ],
+        "minimum": 630.4,
+        "maximum": 826.1,
+        "difference": 195.70000000000005
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          23,
+          58
+        ],
+        "minimum": 18.7,
+        "maximum": 27.0,
+        "difference": 8.3
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          101,
+          104,
+          121,
+          125
+        ],
+        "minimum": 753.0,
+        "maximum": 877.0,
+        "difference": 124.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          100,
+          103,
+          120,
+          124
+        ],
+        "minimum": 766.0,
+        "maximum": 1013.0,
+        "difference": 247.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          100,
+          103,
+          120,
+          124
+        ],
+        "minimum": 26.0,
+        "maximum": 35.0,
+        "difference": 9.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          99,
+          102,
+          119,
+          123
+        ],
+        "minimum": 866.0,
+        "maximum": 1152.0,
+        "difference": 286.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          106,
+          108
+        ],
+        "minimum": 944.0,
+        "maximum": 1394.0,
+        "difference": 450.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "minimum": 630.0,
+        "maximum": 2220.0,
+        "difference": 1590.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "minimum": 3.0,
+        "maximum": 85.0,
+        "difference": 82.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          177,
+          179
+        ],
+        "minimum": 960.0,
+        "maximum": 1350.0,
+        "difference": 390.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          22,
+          45,
+          46,
+          47,
+          66,
+          67,
+          75,
+          148,
+          149,
+          176,
+          178
+        ],
+        "minimum": 429.0,
+        "maximum": 1100.0,
+        "difference": 671.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          22,
+          45,
+          46,
+          47,
+          66,
+          67,
+          75,
+          148,
+          149,
+          176,
+          178
+        ],
+        "minimum": 6.1,
+        "maximum": 35.0,
+        "difference": 28.9
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          53,
+          57,
+          138
+        ],
+        "minimum": 482.0,
+        "maximum": 760.0,
+        "difference": 278.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          78,
+          79,
+          80
+        ],
+        "minimum": 1110.0,
+        "maximum": 1500.0,
+        "difference": 390.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          78,
+          79,
+          80
+        ],
+        "minimum": 18.0,
+        "maximum": 35.0,
+        "difference": 17.0
+      }
+    ]
+  },
+  {
+    "dataset": "alloy315",
+    "n": 315,
+    "source_file": "C:\\Users\\admin\\Desktop\\DATAVALUE-FINAL\\论文\\实验案例\\数据\\原文献数据.xlsx",
+    "source_sha256": "a00c890676bb413879508fe0758323c8e6b52f631e469a1e281c52485670a9b5",
+    "process_columns_absent": [],
+    "FE_above_100": 0,
+    "missing_FE": 0,
+    "missing_UTS": 0,
+    "property_spread_groups": 78,
+    "confirmed_source_errors": 0,
+    "spread_groups": [
+      {
+        "field": "UTS",
+        "excel_rows": [
+          193,
+          194,
+          195
+        ],
+        "minimum": 518.0,
+        "maximum": 896.0,
+        "difference": 378.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          193,
+          194,
+          195
+        ],
+        "minimum": 22.0,
+        "maximum": 40.0,
+        "difference": 18.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "minimum": 1215.0,
+        "maximum": 1620.0,
+        "difference": 405.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "minimum": 7.0,
+        "maximum": 31.0,
+        "difference": 24.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          80,
+          83
+        ],
+        "minimum": 638.0,
+        "maximum": 1233.0,
+        "difference": 595.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          80,
+          83
+        ],
+        "minimum": 28.1,
+        "maximum": 60.0,
+        "difference": 31.9
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          79,
+          82
+        ],
+        "minimum": 679.0,
+        "maximum": 1117.0,
+        "difference": 438.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          79,
+          82
+        ],
+        "minimum": 33.6,
+        "maximum": 67.3,
+        "difference": 33.699999999999996
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          78,
+          81
+        ],
+        "minimum": 931.0,
+        "maximum": 1084.0,
+        "difference": 153.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          78,
+          81
+        ],
+        "minimum": 34.9,
+        "maximum": 45.0,
+        "difference": 10.100000000000001
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          284,
+          288
+        ],
+        "minimum": 455.0,
+        "maximum": 658.0,
+        "difference": 203.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          284,
+          288
+        ],
+        "minimum": 6.2,
+        "maximum": 11.3,
+        "difference": 5.1000000000000005
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          283,
+          287
+        ],
+        "minimum": 387.0,
+        "maximum": 665.0,
+        "difference": 278.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          282,
+          286
+        ],
+        "minimum": 250.0,
+        "maximum": 463.0,
+        "difference": 213.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "minimum": 988.0,
+        "maximum": 1812.0,
+        "difference": 824.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "minimum": 7.0,
+        "maximum": 24.0,
+        "difference": 17.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          168,
+          169,
+          170,
+          171,
+          172
+        ],
+        "minimum": 500.0,
+        "maximum": 1179.0,
+        "difference": 679.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          168,
+          169,
+          170,
+          171,
+          172
+        ],
+        "minimum": 2.0,
+        "maximum": 16.3,
+        "difference": 14.3
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          101,
+          102
+        ],
+        "minimum": 935.0,
+        "maximum": 1236.0,
+        "difference": 301.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          101,
+          102
+        ],
+        "minimum": 23.0,
+        "maximum": 32.0,
+        "difference": 9.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "minimum": 592.0,
+        "maximum": 1510.0,
+        "difference": 918.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "minimum": 5.0,
+        "maximum": 37.0,
+        "difference": 32.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          269,
+          270,
+          271,
+          272,
+          273
+        ],
+        "minimum": 590.0,
+        "maximum": 930.0,
+        "difference": 340.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          269,
+          270,
+          271,
+          272,
+          273
+        ],
+        "minimum": 8.0,
+        "maximum": 47.0,
+        "difference": 39.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "minimum": 1007.0,
+        "maximum": 1800.0,
+        "difference": 793.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "minimum": 6.0,
+        "maximum": 27.0,
+        "difference": 21.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          108
+        ],
+        "minimum": 427.0,
+        "maximum": 1322.0,
+        "difference": 895.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          108
+        ],
+        "minimum": 2.2,
+        "maximum": 86.3,
+        "difference": 84.1
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          312,
+          313,
+          314,
+          315,
+          316
+        ],
+        "minimum": 633.0,
+        "maximum": 1696.0,
+        "difference": 1063.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          312,
+          313,
+          314,
+          315,
+          316
+        ],
+        "minimum": 2.8,
+        "maximum": 52.0,
+        "difference": 49.2
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "minimum": 805.0,
+        "maximum": 1143.0,
+        "difference": 338.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "minimum": 6.0,
+        "maximum": 22.0,
+        "difference": 16.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          27,
+          158,
+          159,
+          160,
+          161,
+          162,
+          166
+        ],
+        "minimum": 491.0,
+        "maximum": 1290.0,
+        "difference": 799.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          27,
+          158,
+          159,
+          160,
+          161,
+          162,
+          166
+        ],
+        "minimum": 10.0,
+        "maximum": 71.0,
+        "difference": 61.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          253,
+          257
+        ],
+        "minimum": 730.0,
+        "maximum": 930.0,
+        "difference": 200.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          264,
+          265,
+          266,
+          267,
+          268
+        ],
+        "minimum": 568.0,
+        "maximum": 1290.0,
+        "difference": 722.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          264,
+          265,
+          266,
+          267,
+          268
+        ],
+        "minimum": 6.1,
+        "maximum": 52.4,
+        "difference": 46.3
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          30,
+          209
+        ],
+        "minimum": 758.0,
+        "maximum": 889.2,
+        "difference": 131.20000000000005
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          30,
+          209
+        ],
+        "minimum": 0.4,
+        "maximum": 47.0,
+        "difference": 46.6
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          126,
+          147,
+          148,
+          149,
+          150
+        ],
+        "minimum": 600.0,
+        "maximum": 1886.0,
+        "difference": 1286.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          126,
+          147,
+          148,
+          149,
+          150
+        ],
+        "minimum": 0.8,
+        "maximum": 10.6,
+        "difference": 9.799999999999999
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          300,
+          301
+        ],
+        "minimum": 1150.0,
+        "maximum": 1520.0,
+        "difference": 370.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          125,
+          143,
+          144,
+          145,
+          146
+        ],
+        "minimum": 570.0,
+        "maximum": 1639.0,
+        "difference": 1069.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          125,
+          143,
+          144,
+          145,
+          146
+        ],
+        "minimum": 2.9,
+        "maximum": 23.1,
+        "difference": 20.200000000000003
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          252,
+          256
+        ],
+        "minimum": 7.5,
+        "maximum": 19.5,
+        "difference": 12.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          28,
+          49,
+          50,
+          51,
+          237,
+          238
+        ],
+        "minimum": 450.0,
+        "maximum": 1470.0,
+        "difference": 1020.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          28,
+          49,
+          50,
+          51,
+          237,
+          238
+        ],
+        "minimum": 2.4,
+        "maximum": 88.0,
+        "difference": 85.6
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          124,
+          139,
+          140,
+          141,
+          142
+        ],
+        "minimum": 496.0,
+        "maximum": 1547.0,
+        "difference": 1051.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          124,
+          139,
+          140,
+          141,
+          142
+        ],
+        "minimum": 4.3,
+        "maximum": 38.9,
+        "difference": 34.6
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          277,
+          296
+        ],
+        "minimum": 38.0,
+        "maximum": 46.5,
+        "difference": 8.5
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          247,
+          248,
+          249,
+          251,
+          255,
+          297
+        ],
+        "minimum": 503.0,
+        "maximum": 1273.0,
+        "difference": 770.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          247,
+          248,
+          249,
+          251,
+          255,
+          297
+        ],
+        "minimum": 17.0,
+        "maximum": 67.0,
+        "difference": 50.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          123,
+          135,
+          136,
+          137,
+          138
+        ],
+        "minimum": 665.0,
+        "maximum": 1457.0,
+        "difference": 792.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          123,
+          135,
+          136,
+          137,
+          138
+        ],
+        "minimum": 9.4,
+        "maximum": 40.2,
+        "difference": 30.800000000000004
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          250,
+          254
+        ],
+        "minimum": 605.0,
+        "maximum": 730.0,
+        "difference": 125.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          250,
+          254
+        ],
+        "minimum": 44.0,
+        "maximum": 59.0,
+        "difference": 15.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          122,
+          131,
+          132,
+          133,
+          134
+        ],
+        "minimum": 507.0,
+        "maximum": 1238.0,
+        "difference": 731.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          122,
+          131,
+          132,
+          133,
+          134
+        ],
+        "minimum": 9.8,
+        "maximum": 51.8,
+        "difference": 42.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          302,
+          303,
+          304,
+          305,
+          306
+        ],
+        "minimum": 682.21,
+        "maximum": 822.0,
+        "difference": 139.78999999999996
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          302,
+          303,
+          304,
+          305,
+          306
+        ],
+        "minimum": 49.4,
+        "maximum": 65.87,
+        "difference": 16.470000000000006
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          121,
+          127,
+          128,
+          129,
+          130
+        ],
+        "minimum": 444.0,
+        "maximum": 1234.0,
+        "difference": 790.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          121,
+          127,
+          128,
+          129,
+          130
+        ],
+        "minimum": 10.1,
+        "maximum": 52.4,
+        "difference": 42.3
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "minimum": 423.1,
+        "maximum": 1011.1,
+        "difference": 588.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "minimum": 7.6,
+        "maximum": 33.0,
+        "difference": 25.4
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          163,
+          164,
+          210
+        ],
+        "minimum": 987.0,
+        "maximum": 1261.0,
+        "difference": 274.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          163,
+          164,
+          210
+        ],
+        "minimum": 1.4,
+        "maximum": 10.9,
+        "difference": 9.5
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          152,
+          153,
+          154
+        ],
+        "minimum": 630.0,
+        "maximum": 1600.0,
+        "difference": 970.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          152,
+          153,
+          154
+        ],
+        "minimum": 13.5,
+        "maximum": 40.2,
+        "difference": 26.700000000000003
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          114,
+          117,
+          118
+        ],
+        "minimum": 991.0,
+        "maximum": 1470.0,
+        "difference": 479.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          114,
+          117,
+          118
+        ],
+        "minimum": 24.0,
+        "maximum": 44.0,
+        "difference": 20.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          120,
+          165
+        ],
+        "minimum": 320.0,
+        "maximum": 610.0,
+        "difference": 290.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          120,
+          165
+        ],
+        "minimum": 31.0,
+        "maximum": 49.0,
+        "difference": 18.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          47,
+          97,
+          98
+        ],
+        "minimum": 561.66,
+        "maximum": 1053.2,
+        "difference": 491.5400000000001
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          47,
+          97,
+          98
+        ],
+        "minimum": 37.0,
+        "maximum": 70.0,
+        "difference": 33.0
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          44,
+          45,
+          46,
+          214,
+          215,
+          216
+        ],
+        "minimum": 1181.0,
+        "maximum": 1500.0,
+        "difference": 319.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          44,
+          45,
+          46,
+          214,
+          215,
+          216
+        ],
+        "minimum": 6.4,
+        "maximum": 19.0,
+        "difference": 12.6
+      },
+      {
+        "field": "UTS",
+        "excel_rows": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "minimum": 1072.0,
+        "maximum": 1504.0,
+        "difference": 432.0
+      },
+      {
+        "field": "FE",
+        "excel_rows": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "minimum": 18.0,
+        "maximum": 55.0,
+        "difference": 37.0
+      }
+    ]
+  }
+]

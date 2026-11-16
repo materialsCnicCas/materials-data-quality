@@ -1,0 +1,14 @@
+{
+  "small_direct_linear_system_max_abs_error": 2.5650696011680907e-09,
+  "real_sparse_vs_block_max_abs_error": 1.0758061108617767e-13,
+  "small_convergence": {
+    "iterations": 37,
+    "residual": 6.511330252756409e-09
+  },
+  "real_convergence": {
+    "iterations": 39,
+    "residual": 6.6181703450851614e-09
+  },
+  "n": 12000,
+  "d": 43
+}

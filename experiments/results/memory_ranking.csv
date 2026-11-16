@@ -1,0 +1,16 @@
+seed,method,spearman,strict_order
+0,batch_only_mean,1.0,True
+0,memory_knn_mean,1.0,True
+0,memory_gat_mean,0.7999999999999999,False
+1,batch_only_mean,1.0,True
+1,memory_knn_mean,1.0,True
+1,memory_gat_mean,1.0,True
+2,batch_only_mean,1.0,True
+2,memory_knn_mean,1.0,True
+2,memory_gat_mean,1.0,True
+3,batch_only_mean,1.0,True
+3,memory_knn_mean,1.0,True
+3,memory_gat_mean,1.0,True
+4,batch_only_mean,1.0,True
+4,memory_knn_mean,1.0,True
+4,memory_gat_mean,1.0,True

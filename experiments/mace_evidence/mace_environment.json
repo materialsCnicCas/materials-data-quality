@@ -1,0 +1,17 @@
+{
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "mace": "0.3.15",
+  "ase": "3.29.0",
+  "sklearn": "1.7.2",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "gpus": [
+    "NVIDIA GeForce RTX 5090",
+    "NVIDIA GeForce RTX 5090"
+  ],
+  "cpu": "x86_64",
+  "gpu_driver": "580.105.08\n580.105.08",
+  "remote_root": "<REMOTE_ROOT>",
+  "dataset_scope": "five grouped 4000-record subsets; not original full-dataset 10fold"
+}

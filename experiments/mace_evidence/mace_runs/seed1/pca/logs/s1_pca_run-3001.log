@@ -1,0 +1,84 @@
+2026-10-13 18:41:04.253 INFO: ===========VERIFYING SETTINGS===========
+2026-10-13 18:41:04.253 INFO: MACE version: 0.3.15
+2026-10-13 18:41:04.305 INFO: CUDA version: 12.8, CUDA device: 0
+2026-10-13 18:41:04.340 INFO: ===========LOADING INPUT DATA===========
+2026-10-13 18:41:04.340 INFO: Using heads: ['Default']
+2026-10-13 18:41:04.340 INFO: Using the key specifications to parse data:
+2026-10-13 18:41:04.340 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2026-10-13 18:41:04.340 INFO: =============    Processing head Default     ===========
+2026-10-13 18:41:04.592 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed1/pca.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:41:04.619 INFO: Training set 1/1 [energy: 1260, stress: 0, virials: 0, dipole components: 0, head: 1260, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:41:04.625 INFO: Total Training set [energy: 1260, stress: 0, virials: 0, dipole components: 0, head: 1260, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:41:04.726 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed1/valid.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:41:04.737 INFO: Validation set 1/1 [energy: 498, stress: 0, virials: 0, dipole components: 0, head: 498, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:41:04.739 INFO: Total Validation set [energy: 498, stress: 0, virials: 0, dipole components: 0, head: 498, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:41:04.739 INFO: Total number of configurations: train=1260, valid=498, tests=[],
+2026-10-13 18:41:04.739 INFO: Using atomic numbers from command line argument
+2026-10-13 18:41:04.739 INFO: Atomic Numbers used: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+2026-10-13 18:41:04.739 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2026-10-13 18:41:04.739 INFO: Computing average Atomic Energies using least squares regression
+2026-10-13 18:41:04.910 INFO: Atomic Energies used (z: eV) for head Default: {1: 0.0689470107893368, 2: 1.7763568394002505e-15, 3: -1.9627134536139454, 4: 0.45122510619556966, 5: -0.6145824177546393, 6: 1.884370656457593, 7: -1.847910859198933, 8: -3.9429183046469136, 9: -4.186629203078244, 10: 1.7763568394002505e-15, 11: 0.4998285752366731, 12: 1.2117338676177614, 13: -0.4426894326506166, 14: -0.8953779904878085, 15: -0.7002900751979001, 16: -2.057867549691757, 17: -2.1258627236304344, 18: -2.55351295663786e-15, 19: -1.7894979246276095, 20: -1.7717834451007257, 21: -2.7527910516483947, 22: -1.562352306810149, 23: -1.2587988409648032, 24: 0.6274243003290876, 25: 0.46788666193359774, 26: 0.28914230149361364, 27: 1.08776330816196, 28: 0.7806993047729437, 29: 1.136581000204, 30: -0.5086443298752044, 31: -0.1630773572633406, 32: -0.8538839105664591, 33: -1.2101308117967402, 34: -0.6882898889235869, 35: -1.3825832179564697, 36: 4.440892098500626e-15, 37: -1.481171893985552, 38: -1.727945477025656, 39: -2.0553990853213118, 40: -3.954073890379732, 41: -1.3854836716763475, 42: -1.4417454225501865, 43: 2.3053330807965167, 44: 0.6882899730096198, 45: -0.04753928370055671, 46: 0.4606543441164817, 47: -0.9677516166232005, 48: -0.8120520025305018, 49: -0.8788122758903502, 50: -1.407131872961201, 51: -0.38121410593437166, 52: -0.9979599981433599, 53: -0.9843224878374108, 54: 4.440892098500626e-16, 55: -1.9071793101695298, 56: -2.1838523326345274, 57: 1.2248750774152826, 58: -0.7158574413338906, 59: -2.457718901541061, 60: -2.544661499567532, 61: 0.8227671546250683, 62: -2.1422880682434773, 63: -2.465309241141518, 64: -2.2877643914843144, 65: -0.908230892074914, 66: -4.4553223456705755, 67: -3.028678157943142, 68: -0.6694709696228861, 69: -1.541943561519859, 70: -0.42876723601713285, 71: -1.352377550148218, 72: -2.331850173367779, 73: -1.259037204721174, 74: 0.9856800812076794, 75: -0.976927601433434, 76: -0.13607396460020527, 77: 1.3436178503949352, 78: -0.9282333496612969, 79: -0.04831848223951274, 80: 1.533324639682731, 81: -0.07544524892840498, 82: 1.89331898187654, 83: -0.5420182942913846, 84: 0.0, 85: 0.0, 86: 0.0, 87: 0.0, 88: 0.0, 89: -0.35696069307628847, 90: -4.001330214969975, 91: -4.257508151194306, 92: 1.5944035069675242, 93: -1.6805386555257729, 94: -2.5989422800365345}
+2026-10-13 18:41:04.910 INFO: Processing datasets for head 'Default'
+2026-10-13 18:41:05.901 INFO: Combining 1 list datasets for head 'Default'
+2026-10-13 18:41:06.232 INFO: Combining 1 list datasets for head 'Default_valid'
+2026-10-13 18:41:06.232 INFO: Combined validation datasets for Default
+2026-10-13 18:41:06.232 INFO: Head 'Default' training dataset size: 1260
+2026-10-13 18:41:06.233 INFO: Computing average number of neighbors
+2026-10-13 18:41:06.615 INFO: Average number of neighbors: 14.697157859802246
+2026-10-13 18:41:06.615 INFO: During training the following quantities will be reported: energy, forces
+2026-10-13 18:41:06.615 INFO: ===========MODEL DETAILS===========
+2026-10-13 18:41:06.886 WARNING: Standard deviation of the scaling is zero, Changing to no scaling
+2026-10-13 18:41:06.887 INFO: Building model
+2026-10-13 18:41:06.887 INFO: Message passing with 128 channels and max_L=1 (128x0e + 128x1o)
+2026-10-13 18:41:06.887 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2026-10-13 18:41:06.887 INFO: 8 radial and 5 basis functions
+2026-10-13 18:41:06.887 INFO: Radial cutoff: 4.0 A (total receptive field for each atom: 8.0 A)
+2026-10-13 18:41:06.887 INFO: Distance transform for radial basis functions: None
+2026-10-13 18:41:06.887 INFO: Hidden irreps: 128x0e + 128x1o
+2026-10-13 18:41:08.229 INFO: ===========OPTIMIZER INFORMATION===========
+2026-10-13 18:41:08.229 INFO: Using ADAM as parameter optimizer
+2026-10-13 18:41:08.229 INFO: Batch size: 32
+2026-10-13 18:41:08.229 INFO: Number of gradient updates: 393
+2026-10-13 18:41:08.229 INFO: Learning rate: 0.005, weight decay: 5e-07
+2026-10-13 18:41:08.229 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=0.000)
+2026-10-13 18:41:08.230 INFO: === Layer's learning rates ===
+2026-10-13 18:41:08.230 INFO: Param group 0: lr = 0.005
+2026-10-13 18:41:08.230 INFO: Param group 1: lr = 0.005
+2026-10-13 18:41:08.230 INFO: Param group 2: lr = 0.005
+2026-10-13 18:41:08.230 INFO: Param group 3: lr = 0.005
+2026-10-13 18:41:08.230 INFO: Param group 4: lr = 0.005
+2026-10-13 18:41:08.230 INFO: Using gradient clipping with tolerance=10.000
+2026-10-13 18:41:08.230 INFO: 
+2026-10-13 18:41:08.230 INFO: ===========TRAINING===========
+2026-10-13 18:41:08.230 INFO: Started training, reporting errors on validation set
+2026-10-13 18:41:08.230 INFO: Loss metrics on validation set
+2026-10-13 18:41:12.294 INFO: Initial: head: Default, loss=0.00846722, RMSE_E_per_atom=  722.73 meV, RMSE_F=None meV / A
+2026-10-13 18:41:21.686 INFO: Epoch 0: head: Default, loss=0.00846612, RMSE_E_per_atom=  722.69 meV, RMSE_F=None meV / A
+2026-10-13 18:41:27.113 INFO: Epoch 1: head: Default, loss=0.00845632, RMSE_E_per_atom=  722.26 meV, RMSE_F=None meV / A
+2026-10-13 18:41:32.434 INFO: Epoch 2: head: Default, loss=0.00809267, RMSE_E_per_atom=  706.14 meV, RMSE_F=None meV / A
+2026-10-13 18:41:37.847 INFO: Epoch 3: head: Default, loss=0.00799627, RMSE_E_per_atom=  701.90 meV, RMSE_F=None meV / A
+2026-10-13 18:41:43.272 INFO: Epoch 4: head: Default, loss=0.00945276, RMSE_E_per_atom=  764.72 meV, RMSE_F=None meV / A
+2026-10-13 18:41:48.284 INFO: Epoch 5: head: Default, loss=0.01112572, RMSE_E_per_atom=  829.66 meV, RMSE_F=None meV / A
+2026-10-13 18:41:53.341 INFO: Epoch 6: head: Default, loss=0.01236237, RMSE_E_per_atom=  873.87 meV, RMSE_F=None meV / A
+2026-10-13 18:41:58.352 INFO: Epoch 7: head: Default, loss=0.01450383, RMSE_E_per_atom=  944.63 meV, RMSE_F=None meV / A
+2026-10-13 18:42:03.383 INFO: Epoch 8: head: Default, loss=0.02281261, RMSE_E_per_atom= 1179.08 meV, RMSE_F=None meV / A
+2026-10-13 18:42:08.368 INFO: Epoch 9: head: Default, loss=0.02301401, RMSE_E_per_atom= 1185.80 meV, RMSE_F=None meV / A
+2026-10-13 18:42:08.369 INFO: Training complete
+2026-10-13 18:42:08.369 INFO: 
+2026-10-13 18:42:08.369 INFO: ===========RESULTS===========
+2026-10-13 18:42:08.369 INFO: Loading checkpoint: <REMOTE_ROOT>/mace_runs/seed1/pca/checkpoints/s1_pca_run-3001_epoch-3.pt
+2026-10-13 18:42:08.474 INFO: Loaded Stage one model from epoch 3 for evaluation
+2026-10-13 18:42:08.474 INFO: Saving model to <REMOTE_ROOT>/mace_runs/seed1/pca/checkpoints/s1_pca_run-3001.model
+2026-10-13 18:42:08.722 INFO: Compiling model, saving metadata to <REMOTE_ROOT>/mace_runs/seed1/pca/s1_pca_compiled.model
+2026-10-13 18:42:09.539 INFO: Computing metrics for training, validation, and test sets
+2026-10-13 18:42:09.540 INFO: Skipping evaluation for heads: ['pt_head']
+2026-10-13 18:42:09.540 INFO: Evaluating train_Default ...
+2026-10-13 18:42:11.946 INFO: Evaluating valid_Default ...
+2026-10-13 18:42:12.461 INFO: Error-table on TRAIN and VALID:
++---------------+---------------------+------------------+-------------------+
+|  config_type  | RMSE E / meV / atom | RMSE F / meV / A | relative F RMSE % |
++---------------+---------------------+------------------+-------------------+
+| train_Default |         1445.5      |       None       |        None       |
+| valid_Default |          701.9      |       None       |        None       |
++---------------+---------------------+------------------+-------------------+
+2026-10-13 18:42:15.508 INFO: Done

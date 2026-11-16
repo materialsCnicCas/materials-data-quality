@@ -1,0 +1,18 @@
+{
+  "r2": 0.652075893028534,
+  "mae": 0.4643451575768823,
+  "rmse": 0.6106049547652754,
+  "seed": 2,
+  "method": "pca",
+  "training_seconds": 80.242,
+  "retained": 1641,
+  "polluted_retained": 519,
+  "test_rows": 993,
+  "valid_rows": 493,
+  "shared_eligible": 2273,
+  "pollution_fraction_after_safety": 0.45314562252529694,
+  "f1": 0.614921780986763,
+  "precision": 0.8085443037974683,
+  "recall": 0.4961165048543689,
+  "ap": 0.7749142175231165
+}

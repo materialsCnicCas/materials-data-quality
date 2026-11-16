@@ -1,0 +1,54 @@
+{
+  "split_and_retention_checks": [
+    {
+      "seed": 0,
+      "fit": 10000,
+      "calibration": 2000,
+      "test": 4000,
+      "disjoint": true,
+      "retention_reproduced": true
+    },
+    {
+      "seed": 1,
+      "fit": 10000,
+      "calibration": 2000,
+      "test": 4000,
+      "disjoint": true,
+      "retention_reproduced": true
+    },
+    {
+      "seed": 2,
+      "fit": 10000,
+      "calibration": 2000,
+      "test": 4000,
+      "disjoint": true,
+      "retention_reproduced": true
+    },
+    {
+      "seed": 3,
+      "fit": 10000,
+      "calibration": 2000,
+      "test": 4000,
+      "disjoint": true,
+      "retention_reproduced": true
+    },
+    {
+      "seed": 4,
+      "fit": 10000,
+      "calibration": 2000,
+      "test": 4000,
+      "disjoint": true,
+      "retention_reproduced": true
+    }
+  ],
+  "changed_target_same_input_scores_max_error": {
+    "statistical": 0.0,
+    "boundary_rules": 0.0,
+    "complete_rules": 0.0,
+    "bipartite": 0.0,
+    "rules_gat": 0.0,
+    "full_gat": 0.0,
+    "full_gat_risk": 0.0
+  },
+  "interpretation": "Changing property targets does not change training feature scores. This tests target independence, not physical validity of heuristic rules."
+}

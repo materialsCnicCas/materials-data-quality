@@ -1,0 +1,715 @@
+{
+  "rules": {
+    "formation_energy_per_atom": {
+      "name": "formation_energy_per_atom",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "band_gap": {
+      "name": "band_gap",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "e_above_hull": {
+      "name": "e_above_hull",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "spacegroup_number": {
+      "name": "spacegroup_number",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_0_0": {
+      "name": "lattice_mat_0_0",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_0_1": {
+      "name": "lattice_mat_0_1",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_0_2": {
+      "name": "lattice_mat_0_2",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_1_0": {
+      "name": "lattice_mat_1_0",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_1_1": {
+      "name": "lattice_mat_1_1",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_1_2": {
+      "name": "lattice_mat_1_2",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_2_0": {
+      "name": "lattice_mat_2_0",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_2_1": {
+      "name": "lattice_mat_2_1",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "lattice_mat_2_2": {
+      "name": "lattice_mat_2_2",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "abc_0": {
+      "name": "abc_0",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "abc_1": {
+      "name": "abc_1",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "abc_2": {
+      "name": "abc_2",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "angle_0": {
+      "name": "angle_0",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "angle_1": {
+      "name": "angle_1",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "angle_2": {
+      "name": "angle_2",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_0_x": {
+      "name": "coord_0_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_0_y": {
+      "name": "coord_0_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_0_z": {
+      "name": "coord_0_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_1_x": {
+      "name": "coord_1_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_1_y": {
+      "name": "coord_1_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_1_z": {
+      "name": "coord_1_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_2_x": {
+      "name": "coord_2_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_2_y": {
+      "name": "coord_2_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_2_z": {
+      "name": "coord_2_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_3_x": {
+      "name": "coord_3_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_3_y": {
+      "name": "coord_3_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_3_z": {
+      "name": "coord_3_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_4_x": {
+      "name": "coord_4_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_4_y": {
+      "name": "coord_4_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_4_z": {
+      "name": "coord_4_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_5_x": {
+      "name": "coord_5_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_5_y": {
+      "name": "coord_5_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_5_z": {
+      "name": "coord_5_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_6_x": {
+      "name": "coord_6_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_6_y": {
+      "name": "coord_6_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_6_z": {
+      "name": "coord_6_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_7_x": {
+      "name": "coord_7_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_7_y": {
+      "name": "coord_7_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_7_z": {
+      "name": "coord_7_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_8_x": {
+      "name": "coord_8_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_8_y": {
+      "name": "coord_8_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_8_z": {
+      "name": "coord_8_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_9_x": {
+      "name": "coord_9_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_9_y": {
+      "name": "coord_9_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_9_z": {
+      "name": "coord_9_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_10_x": {
+      "name": "coord_10_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_10_y": {
+      "name": "coord_10_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_10_z": {
+      "name": "coord_10_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_11_x": {
+      "name": "coord_11_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_11_y": {
+      "name": "coord_11_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_11_z": {
+      "name": "coord_11_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_12_x": {
+      "name": "coord_12_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_12_y": {
+      "name": "coord_12_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_12_z": {
+      "name": "coord_12_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_13_x": {
+      "name": "coord_13_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_13_y": {
+      "name": "coord_13_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_13_z": {
+      "name": "coord_13_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_14_x": {
+      "name": "coord_14_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_14_y": {
+      "name": "coord_14_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_14_z": {
+      "name": "coord_14_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_15_x": {
+      "name": "coord_15_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_15_y": {
+      "name": "coord_15_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_15_z": {
+      "name": "coord_15_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_16_x": {
+      "name": "coord_16_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_16_y": {
+      "name": "coord_16_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_16_z": {
+      "name": "coord_16_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_17_x": {
+      "name": "coord_17_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_17_y": {
+      "name": "coord_17_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_17_z": {
+      "name": "coord_17_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_18_x": {
+      "name": "coord_18_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_18_y": {
+      "name": "coord_18_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_18_z": {
+      "name": "coord_18_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_19_x": {
+      "name": "coord_19_x",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_19_y": {
+      "name": "coord_19_y",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    },
+    "coord_19_z": {
+      "name": "coord_19_z",
+      "data_type": "float",
+      "valid_range": [
+        "-Infinity",
+        "Infinity"
+      ],
+      "source": "generic_numeric_domain"
+    }
+  }
+}

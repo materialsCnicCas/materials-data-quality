@@ -1,0 +1,419 @@
+{
+  "cluster_rules": {
+    "structural_features": [
+      "spacegroup_number",
+      "lattice_mat_0_0",
+      "lattice_mat_0_1",
+      "lattice_mat_0_2",
+      "lattice_mat_1_0",
+      "lattice_mat_1_1",
+      "lattice_mat_1_2",
+      "lattice_mat_2_0",
+      "lattice_mat_2_1",
+      "lattice_mat_2_2",
+      "abc_0",
+      "abc_1",
+      "abc_2",
+      "angle_0",
+      "angle_1",
+      "angle_2",
+      "coord_0_x",
+      "coord_0_y",
+      "coord_0_z",
+      "coord_1_x",
+      "coord_1_y",
+      "coord_1_z",
+      "coord_2_x",
+      "coord_2_y",
+      "coord_2_z",
+      "coord_3_x",
+      "coord_3_y",
+      "coord_3_z",
+      "coord_4_x",
+      "coord_4_y",
+      "coord_4_z",
+      "coord_5_x",
+      "coord_5_y",
+      "coord_5_z"
+    ],
+    "attribute_features": [
+      "formation_energy_per_atom",
+      "band_gap",
+      "e_above_hull"
+    ]
+  },
+  "rule_sources": {
+    "srd": {
+      "spacegroup_number": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_0_0": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_0_1": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_0_2": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_1_0": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_1_1": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_1_2": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_2_0": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_2_1": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "lattice_mat_2_2": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "abc_0": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "abc_1": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "abc_2": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "angle_0": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "angle_1": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "angle_2": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_0_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_0_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_0_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_1_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_1_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_1_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_2_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_2_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_2_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_3_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_3_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_3_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_4_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_4_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_4_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_5_x": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_5_y": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "coord_5_z": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.structural_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "formation_energy_per_atom": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.attribute_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "band_gap": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.attribute_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      },
+      "e_above_hull": {
+        "source": "expert_manual",
+        "source_label": "专家手动写入",
+        "source_note": "Original expert-authored materials rule shipped with the system.",
+        "target_section": "cluster_rules.attribute_features",
+        "lifecycle": {
+          "origin": "human_expert_manual_rule",
+          "active": true
+        }
+      }
+    }
+  }
+}

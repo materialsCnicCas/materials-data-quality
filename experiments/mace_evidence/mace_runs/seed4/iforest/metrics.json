@@ -1,0 +1,18 @@
+{
+  "r2": 0.652117675090577,
+  "mae": 0.46258984035246276,
+  "rmse": 0.6157448739549902,
+  "seed": 4,
+  "method": "iforest",
+  "training_seconds": 86.555,
+  "retained": 1834,
+  "polluted_retained": 627,
+  "test_rows": 994,
+  "valid_rows": 495,
+  "shared_eligible": 2251,
+  "pollution_fraction_after_safety": 0.4495779653487339,
+  "f1": 0.5388383484954513,
+  "precision": 0.9232613908872902,
+  "recall": 0.3804347826086957,
+  "ap": 0.8553421572845553
+}

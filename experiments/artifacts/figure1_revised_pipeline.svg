@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="384.8pt" version="1.1" viewBox="0 0 788 384.8" width="788pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T19:18:57.932148</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.4.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 384.8 
+L 788 384.8 
+L 788 0 
+L 0 0 
+z
+" style="fill:#ffffff;"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path clip-path="url(#p15d3ef7cf1)" d="M 17.944444 155.36 
+L 179.111111 155.36 
+Q 181.26 155.36 181.26 153.223077 
+L 181.26 53.5 
+Q 181.26 51.363077 179.111111 51.363077 
+L 17.944444 51.363077 
+Q 15.795556 51.363077 15.795556 53.5 
+L 15.795556 153.223077 
+Q 15.795556 155.36 17.944444 155.36 
+z
+" style="fill:#e9f1f6;stroke:#596974;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_3">
+    <path clip-path="url(#p15d3ef7cf1)" d="M 211.344444 155.36 
+L 444.140741 155.36 
+Q 446.28963 155.36 446.28963 153.223077 
+L 446.28963 53.5 
+Q 446.28963 51.363077 444.140741 51.363077 
+L 211.344444 51.363077 
+Q 209.195556 51.363077 209.195556 53.5 
+L 209.195556 153.223077 
+Q 209.195556 155.36 211.344444 155.36 
+z
+" style="fill:#e6f2ed;stroke:#596974;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_4">
+    <path clip-path="url(#p15d3ef7cf1)" d="M 476.374074 155.36 
+L 762.892593 155.36 
+Q 765.041481 155.36 765.041481 153.223077 
+L 765.041481 53.5 
+Q 765.041481 51.363077 762.892593 51.363077 
+L 476.374074 51.363077 
+Q 474.225185 51.363077 474.225185 53.5 
+L 474.225185 153.223077 
+Q 474.225185 155.36 476.374074 155.36 
+z
+" style="fill:#f3ecf8;stroke:#596974;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_5">
+    <path clip-path="url(#p15d3ef7cf1)" d="M 17.944444 361.929231 
+L 444.140741 361.929231 
+Q 446.28963 361.929231 446.28963 359.792308 
+L 446.28963 192.4 
+Q 446.28963 190.263077 444.140741 190.263077 
+L 17.944444 190.263077 
+Q 15.795556 190.263077 15.795556 192.4 
+L 15.795556 359.792308 
+Q 15.795556 361.929231 17.944444 361.929231 
+z
+" style="fill:#f5f7f8;stroke:#596974;stroke-linejoin:miter;"/>
+   </g>
+   <g id="patch_6">
+    <path clip-path="url(#p15d3ef7cf1)" d="M 476.374074 361.929231 
+L 762.892593 361.929231 
+Q 765.041481 361.929231 765.041481 359.792308 
+L 765.041481 192.4 
+Q 765.041481 190.263077 762.892593 190.263077 
+L 476.374074 190.263077 
+Q 474.225185 190.263077 474.225185 192.4 
+L 474.225185 359.792308 
+Q 474.225185 361.929231 476.374074 361.929231 
+z
+" style="fill:#fff2e3;stroke:#596974;stroke-linejoin:miter;"/>
+   </g>
+   <g id="text_1">
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(50.454934 91.001506)">Training batch only</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(45.646387 106.148507)">Numeric X; no target</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(52.423645 121.295509)">No outer-test data</text>
+   </g>
+   <g id="text_2">
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(237.924397 90.861053)">Feature indicators + duplicate prior</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(230.645296 106.008054)">Statistical / boundary / relation checks</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(270.007679 121.155056)">Rule-only output: c_cal</text>
+   </g>
+   <g id="text_3">
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(531.470591 90.861053)">Optional: static propagation → GAT</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(557.721122 106.008054)">Fixed B; restart α = 0.35</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(558.17799 121.155056)">Weak target = 1 − c_cal</text>
+   </g>
+   <g id="text_4">
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(142.904311 248.589119)">Nine operational feature indicators</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(104.755507 263.736121)">Documentation • range / center • numeric format</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(73.202475 278.883123)">Lexical metadata • nonmissing cells • uniqueness placeholder</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(89.513975 294.030124)">Distribution shape • numeric regularity • PC1 relevance</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(81.58153 309.177126)">Scores are heuristic evidence, not correctness probabilities</text>
+   </g>
+   <g id="text_5">
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(537.442216 241.015619)">Exploratory historical references</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(508.658794 256.16262)">800 anchors; history-only descriptor scaling</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(496.398341 271.309622)">Compare batch only / history KNN / Memory-GAT</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(619.633333 286.456623)"/>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(496.725013 301.603625)">Outputs: sample + feature scores; rule evidence</text>
+    <text style="font-family:DejaVu Sans;font-size:10.1px;font-stretch:normal;font-style:normal;font-weight:normal;" transform="translate(532.790693 316.750627)">Calibration threshold; retained IDs</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 182.540624 103.361538 
+Q 194.152691 103.361538 204.087707 103.361538 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+    <path d="M 200.087707 101.361538 
+L 204.087707 103.361538 
+L 200.087707 105.361538 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 449.00477 103.361538 
+Q 459.898327 103.361538 469.114832 103.361538 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+    <path d="M 465.114832 101.361538 
+L 469.114832 103.361538 
+L 465.114832 105.361538 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 325.951852 190.395765 
+Q 325.951852 174.589252 325.951852 160.45979 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+    <path d="M 323.951852 164.45979 
+L 325.951852 160.45979 
+L 327.951852 164.45979 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 619.633333 158.784068 
+Q 619.633333 172.811531 619.633333 185.161942 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+    <path d="M 621.633333 181.161942 
+L 619.633333 185.161942 
+L 617.633333 181.161942 
+" style="fill:none;stroke:#354a59;stroke-linecap:round;stroke-width:1.5;"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p15d3ef7cf1">
+   <rect height="370.4" width="773.6" x="7.2" y="7.2"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "n": 3999,
+  "d": 43,
+  "repeat": 1,
+  "total_seconds": 1.9655938000000002,
+  "peak_process_rss_mib": 461.0,
+  "iterations": 39,
+  "prior_seconds": 0.37850439999999974,
+  "evidence_seconds": 0.011446300000000242,
+  "propagation_seconds": 0.003392600000000634,
+  "rules_gat_graph_seconds": 0.07779989999999959,
+  "rules_gat_training_seconds": 0.6990012999999999,
+  "rules_gat_inference_seconds": 0.004542199999999497,
+  "rules_gat_edges": 35991,
+  "full_gat_graph_seconds": 0.04671910000000068,
+  "full_gat_training_seconds": 0.6689477000000004,
+  "full_gat_inference_seconds": 0.004296300000000031,
+  "full_gat_edges": 35991
+}

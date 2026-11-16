@@ -1,0 +1,114 @@
+2026-10-13 18:35:37.196 INFO: ===========VERIFYING SETTINGS===========
+2026-10-13 18:35:37.196 INFO: MACE version: 0.3.15
+2026-10-13 18:35:37.196 DEBUG: Configuration: Namespace(config=None, name='s1_clean_reference', seed=3001, work_dir='.', log_dir='<REMOTE_ROOT>/mace_runs/seed1/clean_reference/logs', model_dir='<REMOTE_ROOT>/mace_runs/seed1/clean_reference', checkpoints_dir='<REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints', results_dir='<REMOTE_ROOT>/mace_runs/seed1/clean_reference/results', downloads_dir='./downloads', device='cuda', default_dtype='float32', distributed=False, launcher='slurm', log_level='INFO', plot=True, plot_frequency=0, plot_interaction_e=False, error_table='PerAtomRMSE', model='MACE', r_max=4.0, radial_type='bessel', num_radial_basis=8, num_cutoff_basis=5, pair_repulsion=False, distance_transform='None', apply_cutoff=True, use_last_readout_only=False, use_embedding_readout=False, interaction='RealAgnosticResidualInteractionBlock', interaction_first='RealAgnosticResidualInteractionBlock', max_ell=3, correlation=3, use_reduced_cg=False, use_so3=False, use_agnostic_product=False, num_interactions=2, MLP_irreps='16x0e', radial_MLP='[64, 64, 64]', hidden_irreps='128x0e + 128x1o', edge_irreps=None, num_channels=128, max_L=1, gate='silu', scaling='rms_forces_scaling', avg_num_neighbors=1, compute_avg_num_neighbors=True, compute_stress=False, compute_forces=True, compute_polarizability=False, compute_atomic_dipole=False, train_file='<REMOTE_ROOT>/mace_runs/seed1/clean_reference.xyz', valid_file='<REMOTE_ROOT>/mace_runs/seed1/valid.xyz', valid_fraction=0.1, test_file=None, test_dir=None, multi_processed_test=False, num_workers=0, pin_memory=True, atomic_numbers='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]', mean=None, std=None, statistics_file=None, les_arguments=None, E0s='average', pseudolabel_replay=False, pseudolabel_replay_compute_stress=False, foundation_filter_elements=True, heads=None, multiheads_finetuning=True, foundation_head=None, weight_pt_head=1.0, real_pt_data_ratio_threshold=0.1, num_samples_pt=10000, force_mh_ft_lr=False, subselect_pt='random', filter_type_pt='none', allow_random_padding_pt=True, pt_train_file=None, pt_valid_file=None, foundation_model_elements=False, keep_isolated_atoms=False, lora=False, lora_rank=4, lora_alpha=1.0, energy_key='REF_energy', forces_key='REF_forces', virials_key='REF_virials', stress_key='REF_stress', dipole_key='dipole', polarizability_key='polarizability', head_key='head', charges_key='REF_charges', elec_temp_key='elec_temp', total_spin_key='total_spin', total_charge_key='total_charge', embedding_specs=None, skip_evaluate_heads='pt_head', loss='weighted', forces_weight=0.0, swa_forces_weight=100.0, energy_weight=1.0, swa_energy_weight=1000.0, virials_weight=1.0, swa_virials_weight=10.0, stress_weight=1.0, swa_stress_weight=10.0, dipole_weight=1.0, swa_dipole_weight=1.0, swa_polarizability_weight=1.0, polarizability_weight=1.0, config_type_weights='{"Default":1.0}', huber_delta=0.01, optimizer='adam', beta=0.9, beta1_schedulefree=0.9, beta2_schedulefree=0.98, batch_size=32, valid_batch_size=64, lr=0.005, swa_lr=0.001, weight_decay=5e-07, lr_params_factors='{"embedding_lr_factor": 1.0, "interactions_lr_factor": 1.0, "products_lr_factor": 1.0, "readouts_lr_factor": 1.0}', freeze=None, amsgrad=True, scheduler='ReduceLROnPlateau', lr_factor=0.5, scheduler_patience=10, lr_scheduler_gamma=0.9993, swa=False, start_swa=None, lbfgs=False, ema=False, ema_decay=0.99, max_num_epochs=10, patience=2048, foundation_model=None, foundation_model_kwargs='{}', foundation_model_readout=True, eval_interval=1, keep_checkpoints=False, save_all_checkpoints=False, restart_latest=False, save_cpu=False, clip_grad=10.0, dry_run=False, enable_cueq=False, only_cueq=False, enable_oeq=False, wandb=False, wandb_dir=None, wandb_project='', wandb_entity='', wandb_name='', wandb_log_hypers=['num_channels', 'max_L', 'correlation', 'lr', 'swa_lr', 'weight_decay', 'batch_size', 'max_num_epochs', 'start_swa', 'energy_weight', 'forces_weight'], key_specification=KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'}))
+2026-10-13 18:35:37.247 INFO: CUDA version: 12.8, CUDA device: 0
+2026-10-13 18:35:37.273 DEBUG: Popen(['git', 'version'], cwd=<REMOTE_ROOT>/mace_runs/seed1/clean_reference, stdin=None, shell=False, universal_newlines=False)
+2026-10-13 18:35:37.276 DEBUG: Popen(['git', 'version'], cwd=<REMOTE_ROOT>/mace_runs/seed1/clean_reference, stdin=None, shell=False, universal_newlines=False)
+2026-10-13 18:35:37.279 DEBUG: sys.platform='linux', git_executable='git'
+2026-10-13 18:35:37.280 DEBUG: Error accessing Git repository: <REMOTE_ROOT>/mace_runs/seed1/clean_reference
+2026-10-13 18:35:37.280 INFO: ===========LOADING INPUT DATA===========
+2026-10-13 18:35:37.280 INFO: Using heads: ['Default']
+2026-10-13 18:35:37.280 INFO: Using the key specifications to parse data:
+2026-10-13 18:35:37.280 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2026-10-13 18:35:37.280 INFO: =============    Processing head Default     ===========
+2026-10-13 18:35:37.280 DEBUG: Loading training file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference.xyz
+2026-10-13 18:35:37.704 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed1/clean_reference.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:35:37.753 INFO: Training set 1/1 [energy: 2265, stress: 0, virials: 0, dipole components: 0, head: 2265, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:35:37.763 INFO: Total Training set [energy: 2265, stress: 0, virials: 0, dipole components: 0, head: 2265, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:35:37.862 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed1/valid.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:35:37.872 INFO: Validation set 1/1 [energy: 498, stress: 0, virials: 0, dipole components: 0, head: 498, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:35:37.874 INFO: Total Validation set [energy: 498, stress: 0, virials: 0, dipole components: 0, head: 498, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:35:37.874 INFO: Total number of configurations: train=2265, valid=498, tests=[],
+2026-10-13 18:35:37.874 INFO: Using atomic numbers from command line argument
+2026-10-13 18:35:37.875 INFO: Atomic Numbers used: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+2026-10-13 18:35:37.875 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2026-10-13 18:35:37.875 INFO: Computing average Atomic Energies using least squares regression
+2026-10-13 18:35:38.166 INFO: Atomic Energies used (z: eV) for head Default: {1: -0.052568651790344416, 2: 0.008299409999889207, 3: -0.9864435082302226, 4: -0.42789877351968286, 5: -0.59733341881041, 6: 0.6212895126977478, 7: -0.9677194477103743, 8: -3.5671457360278875, 9: -4.0279982550594005, 10: -1.942890293094024e-15, 11: -0.7282443152471776, 12: -0.1749927901299475, 13: -0.5969005708041981, 14: -0.34674992409299854, 15: -0.7563217020114903, 16: -1.8855567727573286, 17: -2.2830242388784656, 18: 7.771561172376096e-16, 19: -0.8589317158741938, 20: -1.691818355647774, 21: -2.4879957271516955, 22: -2.2705433779639677, 23: -0.7021152820139924, 24: -0.02726641873913982, 25: 0.13811721067489446, 26: 0.29692801001615443, 27: 0.43132259036241893, 28: 0.13879516532546318, 29: 0.9357894458617491, 30: 0.1095648381051455, 31: -0.12438431493082724, 32: -0.04749029828077944, 33: -0.21334645924747006, 34: -1.3966919986893864, 35: -1.9486153004438536, 36: 2.1094237467877974e-15, 37: -0.5462604119293156, 38: -1.9450852858031884, 39: -1.6842563086820648, 40: -1.7847586060459795, 41: -0.9505775996159229, 42: 0.01869748907166588, 43: 1.0871782598519277, 44: 0.2812233492578857, 45: -0.36454452179640046, 46: -0.24092990085355281, 47: 1.382468417743125, 48: 0.2601678315286758, 49: -0.12964765433125092, 50: 0.11248605424931524, 51: 0.15481452805599333, 52: -0.7477555586364724, 53: -1.4128076691054714, 54: -6.938893903907228e-16, 55: -1.2778140655403007, 56: -2.646341658765318, 57: -2.481538697206526, 58: -1.599223773921279, 59: -1.7838086383609042, 60: -1.602243756142216, 61: -0.6911394519292758, 62: -2.2667445932222376, 63: -2.143956124124671, 64: -2.2725022830795463, 65: -2.0373326230100606, 66: -2.3878934192514376, 67: -1.5431649504115272, 68: -1.6898386412159507, 69: -1.3184908790859724, 70: -1.2945789290575143, 71: -2.4798487775536553, 72: -2.1128251486682808, 73: -1.4381637142711283, 74: 0.10910921443235666, 75: 0.4135711108464289, 76: 0.7253756635496822, 77: -0.06065399210609457, 78: -0.44310306829292156, 79: 0.13271995025154054, 80: 0.6729417023497087, 81: 0.6666141235591199, 82: 0.506250203840269, 83: 0.38228447586470793, 84: 0.0, 85: 0.0, 86: 0.0, 87: 0.0, 88: 0.0, 89: 0.3846157658808558, 90: -1.9084066619336204, 91: -1.988651832600636, 92: -1.6440694420772752, 93: -1.0028679060874117, 94: -1.348711618508076}
+2026-10-13 18:35:38.166 INFO: Processing datasets for head 'Default'
+2026-10-13 18:35:39.890 DEBUG: Successfully loaded dataset from ASE files: ['<REMOTE_ROOT>/mace_runs/seed1/clean_reference.xyz']
+2026-10-13 18:35:39.890 INFO: Combining 1 list datasets for head 'Default'
+2026-10-13 18:35:40.230 DEBUG: Successfully loaded validation dataset from ASE files: ['<REMOTE_ROOT>/mace_runs/seed1/valid.xyz']
+2026-10-13 18:35:40.230 INFO: Combining 1 list datasets for head 'Default_valid'
+2026-10-13 18:35:40.230 INFO: Combined validation datasets for Default
+2026-10-13 18:35:40.230 INFO: Head 'Default' training dataset size: 2265
+2026-10-13 18:35:40.231 INFO: Computing average number of neighbors
+2026-10-13 18:35:40.868 INFO: Average number of neighbors: 15.335253715515137
+2026-10-13 18:35:40.868 INFO: During training the following quantities will be reported: energy, forces
+2026-10-13 18:35:40.868 INFO: ===========MODEL DETAILS===========
+2026-10-13 18:35:41.363 WARNING: Standard deviation of the scaling is zero, Changing to no scaling
+2026-10-13 18:35:41.363 INFO: Building model
+2026-10-13 18:35:41.363 INFO: Message passing with 128 channels and max_L=1 (128x0e + 128x1o)
+2026-10-13 18:35:41.363 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2026-10-13 18:35:41.363 INFO: 8 radial and 5 basis functions
+2026-10-13 18:35:41.363 INFO: Radial cutoff: 4.0 A (total receptive field for each atom: 8.0 A)
+2026-10-13 18:35:41.363 INFO: Distance transform for radial basis functions: None
+2026-10-13 18:35:41.364 INFO: Hidden irreps: 128x0e + 128x1o
+2026-10-13 18:35:42.798 INFO: ===========OPTIMIZER INFORMATION===========
+2026-10-13 18:35:42.798 INFO: Using ADAM as parameter optimizer
+2026-10-13 18:35:42.798 INFO: Batch size: 32
+2026-10-13 18:35:42.798 INFO: Number of gradient updates: 707
+2026-10-13 18:35:42.798 INFO: Learning rate: 0.005, weight decay: 5e-07
+2026-10-13 18:35:42.798 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=0.000)
+2026-10-13 18:35:42.799 INFO: === Layer's learning rates ===
+2026-10-13 18:35:42.799 INFO: Param group 0: lr = 0.005
+2026-10-13 18:35:42.799 INFO: Param group 1: lr = 0.005
+2026-10-13 18:35:42.799 INFO: Param group 2: lr = 0.005
+2026-10-13 18:35:42.799 INFO: Param group 3: lr = 0.005
+2026-10-13 18:35:42.799 INFO: Param group 4: lr = 0.005
+2026-10-13 18:35:42.800 INFO: Using gradient clipping with tolerance=10.000
+2026-10-13 18:35:42.800 INFO: 
+2026-10-13 18:35:42.800 INFO: ===========TRAINING===========
+2026-10-13 18:35:42.800 INFO: Started training, reporting errors on validation set
+2026-10-13 18:35:42.800 INFO: Loss metrics on validation set
+2026-10-13 18:35:47.150 INFO: Initial: head: Default, loss=0.00438447, RMSE_E_per_atom=  520.81 meV, RMSE_F=None meV / A
+2026-10-13 18:35:59.625 INFO: Epoch 0: head: Default, loss=0.00433393, RMSE_E_per_atom=  517.75 meV, RMSE_F=None meV / A
+2026-10-13 18:35:59.627 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-0.pt
+2026-10-13 18:36:07.958 INFO: Epoch 1: head: Default, loss=0.00353632, RMSE_E_per_atom=  466.71 meV, RMSE_F=None meV / A
+2026-10-13 18:36:07.959 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-0.pt
+2026-10-13 18:36:07.992 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-1.pt
+2026-10-13 18:36:16.333 INFO: Epoch 2: head: Default, loss=0.00312451, RMSE_E_per_atom=  438.76 meV, RMSE_F=None meV / A
+2026-10-13 18:36:16.334 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-1.pt
+2026-10-13 18:36:16.367 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-2.pt
+2026-10-13 18:36:24.834 INFO: Epoch 3: head: Default, loss=0.00282086, RMSE_E_per_atom=  416.63 meV, RMSE_F=None meV / A
+2026-10-13 18:36:24.835 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-2.pt
+2026-10-13 18:36:24.873 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-3.pt
+2026-10-13 18:36:32.923 INFO: Epoch 4: head: Default, loss=0.00244791, RMSE_E_per_atom=  388.33 meV, RMSE_F=None meV / A
+2026-10-13 18:36:32.924 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-3.pt
+2026-10-13 18:36:32.960 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-4.pt
+2026-10-13 18:36:40.817 INFO: Epoch 5: head: Default, loss=0.00199978, RMSE_E_per_atom=  351.87 meV, RMSE_F=None meV / A
+2026-10-13 18:36:40.818 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-4.pt
+2026-10-13 18:36:40.854 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-5.pt
+2026-10-13 18:36:48.859 INFO: Epoch 6: head: Default, loss=0.00153248, RMSE_E_per_atom=  308.28 meV, RMSE_F=None meV / A
+2026-10-13 18:36:48.860 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-5.pt
+2026-10-13 18:36:48.897 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-6.pt
+2026-10-13 18:36:56.842 INFO: Epoch 7: head: Default, loss=0.00131621, RMSE_E_per_atom=  286.60 meV, RMSE_F=None meV / A
+2026-10-13 18:36:56.843 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-6.pt
+2026-10-13 18:36:56.881 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-7.pt
+2026-10-13 18:37:04.784 INFO: Epoch 8: head: Default, loss=0.00121085, RMSE_E_per_atom=  275.22 meV, RMSE_F=None meV / A
+2026-10-13 18:37:04.785 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-7.pt
+2026-10-13 18:37:04.823 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-8.pt
+2026-10-13 18:37:12.637 INFO: Epoch 9: head: Default, loss=0.00109486, RMSE_E_per_atom=  262.36 meV, RMSE_F=None meV / A
+2026-10-13 18:37:12.638 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-8.pt
+2026-10-13 18:37:12.674 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-9.pt
+2026-10-13 18:37:12.891 INFO: Training complete
+2026-10-13 18:37:12.892 INFO: 
+2026-10-13 18:37:12.892 INFO: ===========RESULTS===========
+2026-10-13 18:37:12.892 INFO: Loading checkpoint: <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001_epoch-9.pt
+2026-10-13 18:37:13.012 INFO: Loaded Stage one model from epoch 9 for evaluation
+2026-10-13 18:37:13.013 INFO: Saving model to <REMOTE_ROOT>/mace_runs/seed1/clean_reference/checkpoints/s1_clean_reference_run-3001.model
+2026-10-13 18:37:13.280 INFO: Compiling model, saving metadata to <REMOTE_ROOT>/mace_runs/seed1/clean_reference/s1_clean_reference_compiled.model
+2026-10-13 18:37:14.055 INFO: Computing metrics for training, validation, and test sets
+2026-10-13 18:37:14.056 INFO: Skipping evaluation for heads: ['pt_head']
+2026-10-13 18:37:14.056 INFO: Evaluating train_Default ...
+2026-10-13 18:37:18.380 INFO: Evaluating valid_Default ...
+2026-10-13 18:37:18.886 INFO: Error-table on TRAIN and VALID:
++---------------+---------------------+------------------+-------------------+
+|  config_type  | RMSE E / meV / atom | RMSE F / meV / A | relative F RMSE % |
++---------------+---------------------+------------------+-------------------+
+| train_Default |          183.1      |       None       |        None       |
+| valid_Default |          262.4      |       None       |        None       |
++---------------+---------------------+------------------+-------------------+
+2026-10-13 18:37:18.887 DEBUG: Running inference on train_Default dataset
+2026-10-13 18:37:23.361 DEBUG: Running inference on valid_Default dataset
+2026-10-13 18:37:23.930 DEBUG: Plotting failed: 'rmse_f'
+2026-10-13 18:37:23.931 INFO: Done

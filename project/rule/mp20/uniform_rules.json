@@ -1,0 +1,37 @@
+{
+  "rules": {
+    "band_gap": {
+      "name": "band_gap",
+      "data_type": "float",
+      "unit": "eV",
+      "valid_range": [
+        0,
+        "Infinity"
+      ],
+      "source": "uniform_domain_rule",
+      "source_note": "Non-negative band gap."
+    },
+    "e_above_hull": {
+      "name": "e_above_hull",
+      "data_type": "float",
+      "unit": "eV/atom",
+      "valid_range": [
+        0,
+        "Infinity"
+      ],
+      "source": "uniform_domain_rule",
+      "source_note": "Non-negative distance above convex hull."
+    },
+    "spacegroup_number": {
+      "name": "spacegroup_number",
+      "data_type": "int",
+      "unit": "dimensionless",
+      "valid_range": [
+        1,
+        230
+      ],
+      "source": "uniform_domain_rule",
+      "source_note": "International space-group number."
+    }
+  }
+}

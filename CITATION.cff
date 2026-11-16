@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning"
+message: "Please cite the associated manuscript and the upstream data sources."
+type: software
+authors:
+  - family-names: Liang
+    given-names: Sihan
+  - family-names: Zhang
+    given-names: Ji
+  - family-names: Wang
+    given-names: Kehan
+  - family-names: Gao
+    given-names: Zihao
+  - family-names: Ma
+    given-names: Wei
+  - family-names: Wang
+    given-names: Yangang
+  - family-names: Wang
+    given-names: Zongguo
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/materialsCnicCas/materials-data-quality"

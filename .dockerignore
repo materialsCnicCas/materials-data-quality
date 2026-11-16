@@ -1,0 +1,13 @@
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+*.pkl
+*.sqlite
+*.pt
+runtime_outputs
+experiments/mace_evidence
+experiments/mace_inputs.tar.gz
+data/mp20/mp_20.csv

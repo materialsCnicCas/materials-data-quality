@@ -1,0 +1,346 @@
+{
+  "band_gap": {
+    "desc": "band_gap",
+    "range": [
+      0.0,
+      10.0
+    ],
+    "type": "float"
+  },
+  "e_above_hull": {
+    "desc": "e_above_hull",
+    "range": [
+      0.0,
+      0.5
+    ],
+    "type": "float"
+  },
+  "elements": {
+    "desc": "elements",
+    "range": [
+      -0.29030042814336543,
+      0.37894052315384674
+    ],
+    "type": "float"
+  },
+  "spacegroup_number": {
+    "desc": "spacegroup_number",
+    "range": [
+      1.0,
+      230.0
+    ],
+    "type": "float"
+  },
+  "lattice_mat_0_0": {
+    "desc": "lattice_mat_0_0",
+    "range": [
+      -16.176359179104324,
+      26.671749273293095
+    ],
+    "type": "float"
+  },
+  "lattice_mat_0_1": {
+    "desc": "lattice_mat_0_1",
+    "range": [
+      -12.191213343478447,
+      13.81778438223792
+    ],
+    "type": "float"
+  },
+  "lattice_mat_0_2": {
+    "desc": "lattice_mat_0_2",
+    "range": [
+      -41.30684230799551,
+      39.26900028877284
+    ],
+    "type": "float"
+  },
+  "lattice_mat_1_0": {
+    "desc": "lattice_mat_1_0",
+    "range": [
+      -37.751887742454585,
+      32.088825986134545
+    ],
+    "type": "float"
+  },
+  "lattice_mat_1_1": {
+    "desc": "lattice_mat_1_1",
+    "range": [
+      -21.467239069562407,
+      28.47462081650307
+    ],
+    "type": "float"
+  },
+  "lattice_mat_1_2": {
+    "desc": "lattice_mat_1_2",
+    "range": [
+      -46.533675370793496,
+      51.89067307964687
+    ],
+    "type": "float"
+  },
+  "lattice_mat_2_0": {
+    "desc": "lattice_mat_2_0",
+    "range": [
+      -11.922543991927293,
+      13.288222661490801
+    ],
+    "type": "float"
+  },
+  "lattice_mat_2_1": {
+    "desc": "lattice_mat_2_1",
+    "range": [
+      -15.635773128864349,
+      12.524786081366507
+    ],
+    "type": "float"
+  },
+  "lattice_mat_2_2": {
+    "desc": "lattice_mat_2_2",
+    "range": [
+      -40.06075644029891,
+      65.00471039082096
+    ],
+    "type": "float"
+  },
+  "coord_0_x": {
+    "desc": "coord_0_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_0_y": {
+    "desc": "coord_0_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_0_z": {
+    "desc": "coord_0_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_1_x": {
+    "desc": "coord_1_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_1_y": {
+    "desc": "coord_1_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_1_z": {
+    "desc": "coord_1_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_2_x": {
+    "desc": "coord_2_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_2_y": {
+    "desc": "coord_2_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_2_z": {
+    "desc": "coord_2_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_3_x": {
+    "desc": "coord_3_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_3_y": {
+    "desc": "coord_3_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_3_z": {
+    "desc": "coord_3_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_4_x": {
+    "desc": "coord_4_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_4_y": {
+    "desc": "coord_4_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_4_z": {
+    "desc": "coord_4_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_5_x": {
+    "desc": "coord_5_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_5_y": {
+    "desc": "coord_5_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_5_z": {
+    "desc": "coord_5_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_6_x": {
+    "desc": "coord_6_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_6_y": {
+    "desc": "coord_6_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_6_z": {
+    "desc": "coord_6_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_7_x": {
+    "desc": "coord_7_x",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_7_y": {
+    "desc": "coord_7_y",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "coord_7_z": {
+    "desc": "coord_7_z",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "type": "float"
+  },
+  "abc_0": {
+    "desc": "abc_0",
+    "range": [
+      2.0,
+      30.0
+    ],
+    "type": "float"
+  },
+  "abc_1": {
+    "desc": "abc_1",
+    "range": [
+      2.0,
+      30.0
+    ],
+    "type": "float"
+  },
+  "abc_2": {
+    "desc": "abc_2",
+    "range": [
+      2.0,
+      30.0
+    ],
+    "type": "float"
+  },
+  "angle_0": {
+    "desc": "angle_0",
+    "range": [
+      30.0,
+      150.0
+    ],
+    "type": "float"
+  },
+  "angle_1": {
+    "desc": "angle_1",
+    "range": [
+      30.0,
+      150.0
+    ],
+    "type": "float"
+  },
+  "angle_2": {
+    "desc": "angle_2",
+    "range": [
+      30.0,
+      150.0
+    ],
+    "type": "float"
+  }
+}

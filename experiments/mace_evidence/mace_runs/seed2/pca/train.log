@@ -1,0 +1,117 @@
+<REMOTE_ROOT>/venv/lib/python3.10/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+2026-10-13 18:45:15.688 INFO: ===========VERIFYING SETTINGS===========
+2026-10-13 18:45:15.688 INFO: MACE version: 0.3.15
+2026-10-13 18:45:15.741 INFO: CUDA version: 12.8, CUDA device: 0
+2026-10-13 18:45:15.775 INFO: ===========LOADING INPUT DATA===========
+2026-10-13 18:45:15.775 INFO: Using heads: ['Default']
+2026-10-13 18:45:15.775 INFO: Using the key specifications to parse data:
+2026-10-13 18:45:15.775 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2026-10-13 18:45:15.775 INFO: =============    Processing head Default     ===========
+2026-10-13 18:45:16.088 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed2/pca.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:45:16.122 INFO: Training set 1/1 [energy: 1641, stress: 0, virials: 0, dipole components: 0, head: 1641, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:45:16.129 INFO: Total Training set [energy: 1641, stress: 0, virials: 0, dipole components: 0, head: 1641, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:45:16.228 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed2/valid.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:45:16.238 INFO: Validation set 1/1 [energy: 493, stress: 0, virials: 0, dipole components: 0, head: 493, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:45:16.240 INFO: Total Validation set [energy: 493, stress: 0, virials: 0, dipole components: 0, head: 493, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:45:16.240 INFO: Total number of configurations: train=1641, valid=493, tests=[],
+2026-10-13 18:45:16.240 INFO: Using atomic numbers from command line argument
+2026-10-13 18:45:16.240 INFO: Atomic Numbers used: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+2026-10-13 18:45:16.240 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2026-10-13 18:45:16.240 INFO: Computing average Atomic Energies using least squares regression
+2026-10-13 18:45:16.436 INFO: Atomic Energies used (z: eV) for head Default: {1: -1.119888689499342, 2: 2.220446049250313e-15, 3: 0.8793675482263432, 4: 0.18361199036657982, 5: 0.6805429168396867, 6: 1.000468036065973, 7: -2.5241655605043363, 8: -3.7911369342917203, 9: -4.074049091684797, 10: 4.440892098500626e-16, 11: 0.40914173311007335, 12: 0.8118574268751455, 13: -0.88270283518355, 14: -0.6428253596977306, 15: 0.9587688578715894, 16: -2.7033543440386985, 17: -2.1921457982451926, 18: -2.3314683517128287e-15, 19: 0.9351797052148096, 20: -1.539668264314683, 21: -1.7608219967476733, 22: -1.821860109235419, 23: -0.6718051466788383, 24: 0.18639074915626264, 25: 0.5665868983466456, 26: 0.3178094684601942, 27: 0.6311008441178088, 28: 0.3522170152441415, 29: 0.07880213157465144, 30: 1.4533581603642607, 31: 0.05320353447086279, 32: -0.11915939291831301, 33: -0.2932781150149384, 34: -1.3332986000365554, 35: -2.959599020822857, 36: -1.1102230246251565e-16, 37: -1.0810047622177616, 38: -0.9460392569201459, 39: -1.6451561332682836, 40: -1.6569292344956121, 41: -0.2548951832625258, 42: -0.2560106090225751, 43: 0.384517785904594, 44: 1.8394690265608338, 45: 1.9447648039432184, 46: -0.960833400375186, 47: -1.3799244910292157, 48: 2.0904899797655183, 49: -0.062285249355775285, 50: 0.6663854880268374, 51: -1.0741899744552315, 52: -1.0025325958706774, 53: -1.5339138678040998, 54: 0.7636105073540376, 55: -1.2795907996762166, 56: -2.809058657129517, 57: -0.5881810248121719, 58: 1.5119471085733434, 59: -2.059224961646462, 60: -2.2703917921530237, 61: -1.4093495384729178, 62: -2.5508217403296154, 63: -1.0091679032135898, 64: -1.7376081073226497, 65: -1.098007931767374, 66: -2.7141487324377813, 67: -1.375919781399335, 68: -1.8074412645688192, 69: -1.916498612831777, 70: -0.8308724401363932, 71: -0.9848127179677458, 72: -1.6393283594410808, 73: 1.584200805664751, 74: 0.34468150761057437, 75: -0.7892681385680247, 76: -0.003314570637473202, 77: -1.5881457029333563, 78: -1.578708691458982, 79: -0.13945039422550784, 80: 0.6498490065150462, 81: 0.7003483963060708, 82: 0.550795106488066, 83: 0.41228245221403526, 84: 0.0, 85: 0.0, 86: 0.0, 87: 0.0, 88: 0.0, 89: 1.0075384323387668, 90: -2.143530963632772, 91: 5.9350565690658375, 92: -2.3547665415972685, 93: -1.5889608230740602, 94: -5.911119402302864}
+2026-10-13 18:45:16.436 INFO: Processing datasets for head 'Default'
+2026-10-13 18:45:17.757 INFO: Combining 1 list datasets for head 'Default'
+2026-10-13 18:45:18.077 INFO: Combining 1 list datasets for head 'Default_valid'
+2026-10-13 18:45:18.077 INFO: Combined validation datasets for Default
+2026-10-13 18:45:18.077 INFO: Head 'Default' training dataset size: 1641
+2026-10-13 18:45:18.078 INFO: Computing average number of neighbors
+2026-10-13 18:45:18.593 INFO: Average number of neighbors: 14.469021797180176
+2026-10-13 18:45:18.593 INFO: During training the following quantities will be reported: energy, forces
+2026-10-13 18:45:18.593 INFO: ===========MODEL DETAILS===========
+2026-10-13 18:45:18.942 WARNING: Standard deviation of the scaling is zero, Changing to no scaling
+2026-10-13 18:45:18.942 INFO: Building model
+2026-10-13 18:45:18.942 INFO: Message passing with 128 channels and max_L=1 (128x0e + 128x1o)
+2026-10-13 18:45:18.942 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2026-10-13 18:45:18.942 INFO: 8 radial and 5 basis functions
+2026-10-13 18:45:18.943 INFO: Radial cutoff: 4.0 A (total receptive field for each atom: 8.0 A)
+2026-10-13 18:45:18.943 INFO: Distance transform for radial basis functions: None
+2026-10-13 18:45:18.943 INFO: Hidden irreps: 128x0e + 128x1o
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+<REMOTE_HOME>/miniconda3/envs/image5090/lib/python3.10/ast.py:418: UserWarning: The TorchScript type system doesn't support instance-level annotations on empty non-base types in `__init__`. Instead, either 1) use a type annotation in the class body, or 2) wrap the type in `torch.jit.Attribute`.
+  return visitor(node)
+2026-10-13 18:45:20.271 INFO: ===========OPTIMIZER INFORMATION===========
+2026-10-13 18:45:20.271 INFO: Using ADAM as parameter optimizer
+2026-10-13 18:45:20.271 INFO: Batch size: 32
+2026-10-13 18:45:20.271 INFO: Number of gradient updates: 512
+2026-10-13 18:45:20.271 INFO: Learning rate: 0.005, weight decay: 5e-07
+2026-10-13 18:45:20.271 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=0.000)
+2026-10-13 18:45:20.272 INFO: === Layer's learning rates ===
+2026-10-13 18:45:20.272 INFO: Param group 0: lr = 0.005
+2026-10-13 18:45:20.272 INFO: Param group 1: lr = 0.005
+2026-10-13 18:45:20.272 INFO: Param group 2: lr = 0.005
+2026-10-13 18:45:20.272 INFO: Param group 3: lr = 0.005
+2026-10-13 18:45:20.272 INFO: Param group 4: lr = 0.005
+2026-10-13 18:45:20.272 INFO: Using gradient clipping with tolerance=10.000
+2026-10-13 18:45:20.272 INFO: 
+2026-10-13 18:45:20.272 INFO: ===========TRAINING===========
+2026-10-13 18:45:20.272 INFO: Started training, reporting errors on validation set
+2026-10-13 18:45:20.272 INFO: Loss metrics on validation set
+2026-10-13 18:45:24.246 INFO: Initial: head: Default, loss=0.00888851, RMSE_E_per_atom=  740.71 meV, RMSE_F=None meV / A
+2026-10-13 18:45:34.090 INFO: Epoch 0: head: Default, loss=0.00888449, RMSE_E_per_atom=  740.55 meV, RMSE_F=None meV / A
+2026-10-13 18:45:40.038 INFO: Epoch 1: head: Default, loss=0.00852311, RMSE_E_per_atom=  725.52 meV, RMSE_F=None meV / A
+2026-10-13 18:45:45.975 INFO: Epoch 2: head: Default, loss=0.00678332, RMSE_E_per_atom=  648.72 meV, RMSE_F=None meV / A
+2026-10-13 18:45:51.928 INFO: Epoch 3: head: Default, loss=0.00861530, RMSE_E_per_atom=  731.60 meV, RMSE_F=None meV / A
+2026-10-13 18:45:57.648 INFO: Epoch 4: head: Default, loss=0.00938550, RMSE_E_per_atom=  765.43 meV, RMSE_F=None meV / A
+2026-10-13 18:46:03.388 INFO: Epoch 5: head: Default, loss=0.01120779, RMSE_E_per_atom=  837.02 meV, RMSE_F=None meV / A
+2026-10-13 18:46:09.107 INFO: Epoch 6: head: Default, loss=0.01421028, RMSE_E_per_atom=  943.69 meV, RMSE_F=None meV / A
+2026-10-13 18:46:15.242 INFO: Epoch 7: head: Default, loss=0.01772805, RMSE_E_per_atom= 1055.19 meV, RMSE_F=None meV / A
+2026-10-13 18:46:21.247 INFO: Epoch 8: head: Default, loss=0.01578402, RMSE_E_per_atom=  994.24 meV, RMSE_F=None meV / A
+2026-10-13 18:46:27.167 INFO: Epoch 9: head: Default, loss=0.02029957, RMSE_E_per_atom= 1127.94 meV, RMSE_F=None meV / A
+2026-10-13 18:46:27.167 INFO: Training complete
+2026-10-13 18:46:27.167 INFO: 
+2026-10-13 18:46:27.167 INFO: ===========RESULTS===========
+2026-10-13 18:46:27.168 INFO: Loading checkpoint: <REMOTE_ROOT>/mace_runs/seed2/pca/checkpoints/s2_pca_run-3002_epoch-2.pt
+<REMOTE_ROOT>/venv/lib/python3.10/site-packages/mace/tools/checkpoint.py:187: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=checkpoint_info.path, map_location=device),
+2026-10-13 18:46:27.294 INFO: Loaded Stage one model from epoch 2 for evaluation
+2026-10-13 18:46:27.294 INFO: Saving model to <REMOTE_ROOT>/mace_runs/seed2/pca/checkpoints/s2_pca_run-3002.model
+2026-10-13 18:46:27.598 INFO: Compiling model, saving metadata to <REMOTE_ROOT>/mace_runs/seed2/pca/s2_pca_compiled.model
+2026-10-13 18:46:28.400 INFO: Computing metrics for training, validation, and test sets
+2026-10-13 18:46:28.400 INFO: Skipping evaluation for heads: ['pt_head']
+2026-10-13 18:46:28.401 INFO: Evaluating train_Default ...
+2026-10-13 18:46:31.661 INFO: Evaluating valid_Default ...
+2026-10-13 18:46:32.154 INFO: Error-table on TRAIN and VALID:
++---------------+---------------------+------------------+-------------------+
+|  config_type  | RMSE E / meV / atom | RMSE F / meV / A | relative F RMSE % |
++---------------+---------------------+------------------+-------------------+
+| train_Default |         1644.9      |       None       |        None       |
+| valid_Default |          648.7      |       None       |        None       |
++---------------+---------------------+------------------+-------------------+
+2026-10-13 18:46:35.930 INFO: Done

@@ -1,0 +1,7 @@
+-r requirements-core.txt
+torch==2.7.1
+torch-geometric==2.6.1
+psutil==7.1.0
+matplotlib==3.9.4
+reportlab==4.4.9
+pyod==1.0.0

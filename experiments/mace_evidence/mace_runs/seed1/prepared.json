@@ -1,0 +1,39 @@
+{
+  "seed": 1,
+  "train_before_safety": 2500,
+  "shared_train_eligible": 2265,
+  "valid_before": 500,
+  "valid_retained": 498,
+  "test_before": 1000,
+  "test_retained": 992,
+  "methods": {
+    "clean_reference": {
+      "retained": 2265,
+      "polluted_retained": 1028
+    },
+    "no_cleaning": {
+      "retained": 2265,
+      "polluted_retained": 1028
+    },
+    "complete_rules": {
+      "retained": 1170,
+      "polluted_retained": 0
+    },
+    "full_gat": {
+      "retained": 1272,
+      "polluted_retained": 93
+    },
+    "iforest": {
+      "retained": 1480,
+      "polluted_retained": 356
+    },
+    "pca": {
+      "retained": 1260,
+      "polluted_retained": 337
+    },
+    "random": {
+      "retained": 1170,
+      "polluted_retained": 530
+    }
+  }
+}

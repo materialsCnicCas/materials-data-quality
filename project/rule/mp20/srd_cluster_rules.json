@@ -1,0 +1,7 @@
+{
+  "cluster_rules": {
+    "structural_features": ["spacegroup_number","abc_0","abc_1","abc_2","angle_0","angle_1","angle_2","lattice_mat_0_0","lattice_mat_0_2","lattice_mat_1_0","lattice_mat_1_1","lattice_mat_1_2","lattice_mat_2_2"],
+    "attribute_features": ["formation_energy_per_atom","band_gap","e_above_hull"],
+    "excluded_constant_features": ["lattice_mat_0_1","lattice_mat_2_0","lattice_mat_2_1"]
+  }
+}

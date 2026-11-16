@@ -1,0 +1,100 @@
+2026-10-13 18:56:54.652 INFO: ===========VERIFYING SETTINGS===========
+2026-10-13 18:56:54.652 INFO: MACE version: 0.3.15
+2026-10-13 18:56:54.652 DEBUG: Configuration: Namespace(config=None, name='s4_iforest', seed=3004, work_dir='.', log_dir='<REMOTE_ROOT>/mace_runs/seed4/iforest/logs', model_dir='<REMOTE_ROOT>/mace_runs/seed4/iforest', checkpoints_dir='<REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints', results_dir='<REMOTE_ROOT>/mace_runs/seed4/iforest/results', downloads_dir='./downloads', device='cuda', default_dtype='float32', distributed=False, launcher='slurm', log_level='INFO', plot=True, plot_frequency=0, plot_interaction_e=False, error_table='PerAtomRMSE', model='MACE', r_max=4.0, radial_type='bessel', num_radial_basis=8, num_cutoff_basis=5, pair_repulsion=False, distance_transform='None', apply_cutoff=True, use_last_readout_only=False, use_embedding_readout=False, interaction='RealAgnosticResidualInteractionBlock', interaction_first='RealAgnosticResidualInteractionBlock', max_ell=3, correlation=3, use_reduced_cg=False, use_so3=False, use_agnostic_product=False, num_interactions=2, MLP_irreps='16x0e', radial_MLP='[64, 64, 64]', hidden_irreps='128x0e + 128x1o', edge_irreps=None, num_channels=128, max_L=1, gate='silu', scaling='rms_forces_scaling', avg_num_neighbors=1, compute_avg_num_neighbors=True, compute_stress=False, compute_forces=True, compute_polarizability=False, compute_atomic_dipole=False, train_file='<REMOTE_ROOT>/mace_runs/seed4/iforest.xyz', valid_file='<REMOTE_ROOT>/mace_runs/seed4/valid.xyz', valid_fraction=0.1, test_file=None, test_dir=None, multi_processed_test=False, num_workers=0, pin_memory=True, atomic_numbers='[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]', mean=None, std=None, statistics_file=None, les_arguments=None, E0s='average', pseudolabel_replay=False, pseudolabel_replay_compute_stress=False, foundation_filter_elements=True, heads=None, multiheads_finetuning=True, foundation_head=None, weight_pt_head=1.0, real_pt_data_ratio_threshold=0.1, num_samples_pt=10000, force_mh_ft_lr=False, subselect_pt='random', filter_type_pt='none', allow_random_padding_pt=True, pt_train_file=None, pt_valid_file=None, foundation_model_elements=False, keep_isolated_atoms=False, lora=False, lora_rank=4, lora_alpha=1.0, energy_key='REF_energy', forces_key='REF_forces', virials_key='REF_virials', stress_key='REF_stress', dipole_key='dipole', polarizability_key='polarizability', head_key='head', charges_key='REF_charges', elec_temp_key='elec_temp', total_spin_key='total_spin', total_charge_key='total_charge', embedding_specs=None, skip_evaluate_heads='pt_head', loss='weighted', forces_weight=0.0, swa_forces_weight=100.0, energy_weight=1.0, swa_energy_weight=1000.0, virials_weight=1.0, swa_virials_weight=10.0, stress_weight=1.0, swa_stress_weight=10.0, dipole_weight=1.0, swa_dipole_weight=1.0, swa_polarizability_weight=1.0, polarizability_weight=1.0, config_type_weights='{"Default":1.0}', huber_delta=0.01, optimizer='adam', beta=0.9, beta1_schedulefree=0.9, beta2_schedulefree=0.98, batch_size=32, valid_batch_size=64, lr=0.005, swa_lr=0.001, weight_decay=5e-07, lr_params_factors='{"embedding_lr_factor": 1.0, "interactions_lr_factor": 1.0, "products_lr_factor": 1.0, "readouts_lr_factor": 1.0}', freeze=None, amsgrad=True, scheduler='ReduceLROnPlateau', lr_factor=0.5, scheduler_patience=10, lr_scheduler_gamma=0.9993, swa=False, start_swa=None, lbfgs=False, ema=False, ema_decay=0.99, max_num_epochs=10, patience=2048, foundation_model=None, foundation_model_kwargs='{}', foundation_model_readout=True, eval_interval=1, keep_checkpoints=False, save_all_checkpoints=False, restart_latest=False, save_cpu=False, clip_grad=10.0, dry_run=False, enable_cueq=False, only_cueq=False, enable_oeq=False, wandb=False, wandb_dir=None, wandb_project='', wandb_entity='', wandb_name='', wandb_log_hypers=['num_channels', 'max_L', 'correlation', 'lr', 'swa_lr', 'weight_decay', 'batch_size', 'max_num_epochs', 'start_swa', 'energy_weight', 'forces_weight'], key_specification=KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'}))
+2026-10-13 18:56:54.705 INFO: CUDA version: 12.8, CUDA device: 0
+2026-10-13 18:56:54.732 DEBUG: Popen(['git', 'version'], cwd=<REMOTE_ROOT>/mace_runs/seed4/iforest, stdin=None, shell=False, universal_newlines=False)
+2026-10-13 18:56:54.735 DEBUG: Popen(['git', 'version'], cwd=<REMOTE_ROOT>/mace_runs/seed4/iforest, stdin=None, shell=False, universal_newlines=False)
+2026-10-13 18:56:54.737 DEBUG: sys.platform='linux', git_executable='git'
+2026-10-13 18:56:54.737 DEBUG: Error accessing Git repository: <REMOTE_ROOT>/mace_runs/seed4/iforest
+2026-10-13 18:56:54.737 INFO: ===========LOADING INPUT DATA===========
+2026-10-13 18:56:54.737 INFO: Using heads: ['Default']
+2026-10-13 18:56:54.737 INFO: Using the key specifications to parse data:
+2026-10-13 18:56:54.737 INFO: Default: KeySpecification(info_keys={'energy': 'REF_energy', 'stress': 'REF_stress', 'virials': 'REF_virials', 'dipole': 'dipole', 'head': 'head', 'elec_temp': 'elec_temp', 'total_charge': 'total_charge', 'polarizability': 'polarizability', 'total_spin': 'total_spin'}, arrays_keys={'forces': 'REF_forces', 'charges': 'REF_charges'})
+2026-10-13 18:56:54.737 INFO: =============    Processing head Default     ===========
+2026-10-13 18:56:54.737 DEBUG: Loading training file: <REMOTE_ROOT>/mace_runs/seed4/iforest.xyz
+2026-10-13 18:56:55.091 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed4/iforest.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:56:55.131 INFO: Training set 1/1 [energy: 1834, stress: 0, virials: 0, dipole components: 0, head: 1834, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:56:55.139 INFO: Total Training set [energy: 1834, stress: 0, virials: 0, dipole components: 0, head: 1834, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:56:55.241 WARNING: No forces found with key 'REF_forces' in '<REMOTE_ROOT>/mace_runs/seed4/valid.xyz'. If this is unexpected, Please change the key name in the command line arguments or ensure that the file contains the required data.
+2026-10-13 18:56:55.251 INFO: Validation set 1/1 [energy: 495, stress: 0, virials: 0, dipole components: 0, head: 495, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:56:55.253 INFO: Total Validation set [energy: 495, stress: 0, virials: 0, dipole components: 0, head: 495, elec_temp: 0, total_charge: 0, polarizability: 0, total_spin: 0, forces: 0, charges: 0]
+2026-10-13 18:56:55.253 INFO: Total number of configurations: train=1834, valid=495, tests=[],
+2026-10-13 18:56:55.253 INFO: Using atomic numbers from command line argument
+2026-10-13 18:56:55.254 INFO: Atomic Numbers used: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+2026-10-13 18:56:55.254 INFO: Isolated Atomic Energies (E0s) not in training file, using command line argument
+2026-10-13 18:56:55.254 INFO: Computing average Atomic Energies using least squares regression
+2026-10-13 18:56:55.482 INFO: Atomic Energies used (z: eV) for head Default: {1: -0.14007629103448416, 2: 2.6645352591003757e-15, 3: -0.37586761677811076, 4: -1.4141939657848877, 5: -0.6800934792390095, 6: 0.9317987631453111, 7: -0.40925947016333786, 8: -3.8693254111801476, 9: -3.971372542558906, 10: 9.992007221626409e-16, 11: 0.37500107841156155, 12: 0.7025636814311108, 13: 0.3655697040434407, 14: -0.8207785869331208, 15: -1.1459187205537689, 16: -1.7860106560917188, 17: -2.622392962222391, 18: -8.881784197001252e-16, 19: -0.28432750537714024, 20: -2.802403373580604, 21: -1.7990654628576337, 22: -2.619626242385104, 23: -0.30832416322447087, 24: -1.0066356577861457, 25: -0.42631195260811094, 26: 0.9053056078827972, 27: -0.09233276306539995, 28: 0.33343421314980004, 29: 0.9530825051264318, 30: -0.046523521307457516, 31: -1.0026692168692413, 32: 0.13077256416753835, 33: 0.22929581697484602, 34: -1.4440032130028464, 35: -1.8995717508938519, 36: 8.881784197001252e-16, 37: -0.9985518711650274, 38: -1.1831920176699722, 39: -1.8327923271281938, 40: -3.1905514704711155, 41: 0.917632619265827, 42: -0.8418524971867059, 43: 0.19419096590481355, 44: -1.430233759379915, 45: -1.1139378688648331, 46: -0.2852480267056926, 47: 1.130611416303248, 48: 1.7814601459544956, 49: -0.0012723457421486284, 50: 0.4555824902666865, 51: -2.485827115289554, 52: -0.8123365937667766, 53: -2.519801831917003, 54: 8.881784197001252e-16, 55: -0.902443022867911, 56: -2.4549895809462265, 57: -2.27138483860533, 58: -2.1768858917076463, 59: -3.1239158264741147, 60: -2.6057751879717608, 61: 1.6579455952600046, 62: -1.7505472946809457, 63: -2.303335165747789, 64: -2.3576083663785554, 65: -2.864211945007027, 66: -0.33782840798874625, 67: -0.9809952252130236, 68: -2.4079005047960456, 69: 0.4914170703064986, 70: -1.526414408111384, 71: -1.6396849033986423, 72: -1.5750905426134518, 73: -1.1402833802317187, 74: -0.2516346141292688, 75: -0.47885175463604396, 76: 2.431874305452456, 77: -0.0837632848417128, 78: -0.40541381209017047, 79: 0.1825019061277873, 80: 0.9609827390340375, 81: -0.08885664886720127, 82: 1.7578046739221307, 83: 0.49239221685781664, 84: 0.0, 85: 0.0, 86: 0.0, 87: 0.0, 88: 0.0, 89: -1.190234168686495, 90: -0.9791729919278761, 91: 2.461528838373143, 92: -1.293255873914846, 93: -0.03743550274918617, 94: 0.5899177921067456}
+2026-10-13 18:56:55.482 INFO: Processing datasets for head 'Default'
+2026-10-13 18:56:56.856 DEBUG: Successfully loaded dataset from ASE files: ['<REMOTE_ROOT>/mace_runs/seed4/iforest.xyz']
+2026-10-13 18:56:56.856 INFO: Combining 1 list datasets for head 'Default'
+2026-10-13 18:56:57.175 DEBUG: Successfully loaded validation dataset from ASE files: ['<REMOTE_ROOT>/mace_runs/seed4/valid.xyz']
+2026-10-13 18:56:57.176 INFO: Combining 1 list datasets for head 'Default_valid'
+2026-10-13 18:56:57.176 INFO: Combined validation datasets for Default
+2026-10-13 18:56:57.176 INFO: Head 'Default' training dataset size: 1834
+2026-10-13 18:56:57.176 INFO: Computing average number of neighbors
+2026-10-13 18:56:57.687 INFO: Average number of neighbors: 14.910097122192383
+2026-10-13 18:56:57.687 INFO: During training the following quantities will be reported: energy, forces
+2026-10-13 18:56:57.687 INFO: ===========MODEL DETAILS===========
+2026-10-13 18:56:58.080 WARNING: Standard deviation of the scaling is zero, Changing to no scaling
+2026-10-13 18:56:58.081 INFO: Building model
+2026-10-13 18:56:58.081 INFO: Message passing with 128 channels and max_L=1 (128x0e + 128x1o)
+2026-10-13 18:56:58.081 INFO: 2 layers, each with correlation order: 3 (body order: 4) and spherical harmonics up to: l=3
+2026-10-13 18:56:58.081 INFO: 8 radial and 5 basis functions
+2026-10-13 18:56:58.081 INFO: Radial cutoff: 4.0 A (total receptive field for each atom: 8.0 A)
+2026-10-13 18:56:58.081 INFO: Distance transform for radial basis functions: None
+2026-10-13 18:56:58.081 INFO: Hidden irreps: 128x0e + 128x1o
+2026-10-13 18:56:59.415 INFO: ===========OPTIMIZER INFORMATION===========
+2026-10-13 18:56:59.415 INFO: Using ADAM as parameter optimizer
+2026-10-13 18:56:59.415 INFO: Batch size: 32
+2026-10-13 18:56:59.415 INFO: Number of gradient updates: 573
+2026-10-13 18:56:59.415 INFO: Learning rate: 0.005, weight decay: 5e-07
+2026-10-13 18:56:59.415 INFO: WeightedEnergyForcesLoss(energy_weight=1.000, forces_weight=0.000)
+2026-10-13 18:56:59.416 INFO: === Layer's learning rates ===
+2026-10-13 18:56:59.416 INFO: Param group 0: lr = 0.005
+2026-10-13 18:56:59.416 INFO: Param group 1: lr = 0.005
+2026-10-13 18:56:59.416 INFO: Param group 2: lr = 0.005
+2026-10-13 18:56:59.416 INFO: Param group 3: lr = 0.005
+2026-10-13 18:56:59.416 INFO: Param group 4: lr = 0.005
+2026-10-13 18:56:59.416 INFO: Using gradient clipping with tolerance=10.000
+2026-10-13 18:56:59.416 INFO: 
+2026-10-13 18:56:59.416 INFO: ===========TRAINING===========
+2026-10-13 18:56:59.416 INFO: Started training, reporting errors on validation set
+2026-10-13 18:56:59.416 INFO: Loss metrics on validation set
+2026-10-13 18:57:03.385 INFO: Initial: head: Default, loss=0.00648723, RMSE_E_per_atom=  634.20 meV, RMSE_F=None meV / A
+2026-10-13 18:57:13.930 INFO: Epoch 0: head: Default, loss=0.00648388, RMSE_E_per_atom=  634.04 meV, RMSE_F=None meV / A
+2026-10-13 18:57:13.931 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-0.pt
+2026-10-13 18:57:20.509 INFO: Epoch 1: head: Default, loss=0.00629260, RMSE_E_per_atom=  624.45 meV, RMSE_F=None meV / A
+2026-10-13 18:57:20.510 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-0.pt
+2026-10-13 18:57:20.539 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-1.pt
+2026-10-13 18:57:27.128 INFO: Epoch 2: head: Default, loss=0.00555833, RMSE_E_per_atom=  586.27 meV, RMSE_F=None meV / A
+2026-10-13 18:57:27.130 DEBUG: Deleting old checkpoint file: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-1.pt
+2026-10-13 18:57:27.159 DEBUG: Saving checkpoint: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-2.pt
+2026-10-13 18:57:33.709 INFO: Epoch 3: head: Default, loss=0.00601746, RMSE_E_per_atom=  610.06 meV, RMSE_F=None meV / A
+2026-10-13 18:57:40.046 INFO: Epoch 4: head: Default, loss=0.00887612, RMSE_E_per_atom=  743.14 meV, RMSE_F=None meV / A
+2026-10-13 18:57:46.400 INFO: Epoch 5: head: Default, loss=0.01089620, RMSE_E_per_atom=  824.56 meV, RMSE_F=None meV / A
+2026-10-13 18:57:52.778 INFO: Epoch 6: head: Default, loss=0.01065629, RMSE_E_per_atom=  816.02 meV, RMSE_F=None meV / A
+2026-10-13 18:57:59.299 INFO: Epoch 7: head: Default, loss=0.01535046, RMSE_E_per_atom=  981.72 meV, RMSE_F=None meV / A
+2026-10-13 18:58:05.686 INFO: Epoch 8: head: Default, loss=0.01303748, RMSE_E_per_atom=  901.20 meV, RMSE_F=None meV / A
+2026-10-13 18:58:11.965 INFO: Epoch 9: head: Default, loss=0.01346285, RMSE_E_per_atom=  918.16 meV, RMSE_F=None meV / A
+2026-10-13 18:58:11.966 INFO: Training complete
+2026-10-13 18:58:11.966 INFO: 
+2026-10-13 18:58:11.966 INFO: ===========RESULTS===========
+2026-10-13 18:58:11.967 INFO: Loading checkpoint: <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004_epoch-2.pt
+2026-10-13 18:58:12.088 INFO: Loaded Stage one model from epoch 2 for evaluation
+2026-10-13 18:58:12.088 INFO: Saving model to <REMOTE_ROOT>/mace_runs/seed4/iforest/checkpoints/s4_iforest_run-3004.model
+2026-10-13 18:58:12.430 INFO: Compiling model, saving metadata to <REMOTE_ROOT>/mace_runs/seed4/iforest/s4_iforest_compiled.model
+2026-10-13 18:58:13.197 INFO: Computing metrics for training, validation, and test sets
+2026-10-13 18:58:13.198 INFO: Skipping evaluation for heads: ['pt_head']
+2026-10-13 18:58:13.198 INFO: Evaluating train_Default ...
+2026-10-13 18:58:16.546 INFO: Evaluating valid_Default ...
+2026-10-13 18:58:17.049 INFO: Error-table on TRAIN and VALID:
++---------------+---------------------+------------------+-------------------+
+|  config_type  | RMSE E / meV / atom | RMSE F / meV / A | relative F RMSE % |
++---------------+---------------------+------------------+-------------------+
+| train_Default |         1679.3      |       None       |        None       |
+| valid_Default |          586.3      |       None       |        None       |
++---------------+---------------------+------------------+-------------------+
+2026-10-13 18:58:17.049 DEBUG: Running inference on train_Default dataset
+2026-10-13 18:58:20.631 DEBUG: Running inference on valid_Default dataset
+2026-10-13 18:58:21.207 DEBUG: Plotting failed: 'rmse_f'
+2026-10-13 18:58:21.207 INFO: Done

@@ -1,0 +1,5 @@
+protocol,comparison,n,mean_difference,ci_low,ci_high
+internal_calibration,full_gat minus complete_rules,5,-0.005264492439769253,-0.012102827995296817,0.0015738431157583102
+internal_calibration,bipartite minus complete_rules,5,-0.03323513890286696,-0.08824811039557917,0.021777832589845246
+internal_calibration,rules_gat minus complete_rules,5,-0.0023072171017137987,-0.009341671521663321,0.004727237318235723
+internal_calibration,complete_rules minus no_cleaning,5,0.07811949759254085,0.06825384572658154,0.08798514945850015

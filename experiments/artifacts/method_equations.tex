@@ -1,0 +1,37 @@
+% Copyable LaTeX fragment, not a standalone manuscript.
+% Requires amsmath, amssymb. Corresponds to revision_reference_v1.
+\begin{align}
+ z_{\mathrm{init},j} &= \sum_{k=1}^{9}v_k q_{j,k}, &\sum_{k=1}^{9}v_k&=1,\\
+ c_{\mathrm{init},i} &= \begin{cases}0.2,&\text{member of an exact duplicate numerical-row group},\\1,&\text{otherwise},\end{cases}\\
+ a_{ij} &= \begin{cases}s,&\text{severe evidence},\\m,&\text{mild evidence only},\\1,&\text{otherwise},\end{cases}
+ & (s,m)&=(0.3,0.7),\\
+ c_{\mathrm{cal},i} &=c_{\mathrm{init},i}\min_j a_{ij},
+ & z_{\mathrm{cal},j}&=z_{\mathrm{init},j}\frac{1}{n}\sum_i a_{ij},\\
+ B_{ij} &= \begin{cases}0.1,&\text{severe},\\0.5,&\text{mild only},\\1,&\text{otherwise}.\end{cases}
+\end{align}
+\begin{equation}
+D_s=\operatorname{diag}(B\mathbf{1}_d),\quad
+D_f=\operatorname{diag}(B^\top\mathbf{1}_n),\quad
+P=\begin{bmatrix}0&D_s^{-1}B\\D_f^{-1}B^\top&0\end{bmatrix}.
+\end{equation}
+\begin{equation}
+h^{(0)}=h_{\mathrm{cal}}=\begin{bmatrix}c_{\mathrm{cal}}\\z_{\mathrm{cal}}\end{bmatrix},\quad
+h^{(t+1)}=\alpha h_{\mathrm{cal}}+(1-\alpha)Ph^{(t)},\quad\alpha=0.35.
+\end{equation}
+\begin{equation}
+\|F(h)-F(g)\|_\infty\le(1-\alpha)\|h-g\|_\infty,\qquad
+h^*=\alpha[I-(1-\alpha)P]^{-1}h_{\mathrm{cal}}.
+\end{equation}
+Every degree is nonzero because all entries of $B$ are positive. Therefore $P$ is row-stochastic and $F$ is a contraction for $0<\alpha\le1$. Stop at $\|h^{(t+1)}-h^{(t)}\|_\infty<10^{-8}$, with a cap of 200 iterations.
+\begin{align}
+u_i&=[\operatorname{standardize}(x_i)\odot z,c_i], & t_i&=1-c_{\mathrm{cal},i},\\
+\mathcal L_{\mathrm{GAT}}&=\frac{1}{n}\sum_i(r_i-t_i)^2,
+&c_{\mathrm{final},i}&=\operatorname{clip}(c_i(1-0.5r_i),0,1).
+\end{align}
+\begin{equation}
+\mathcal L_{\mathrm{memory}}=
+\frac{4}{|\mathcal H|}\sum_{u\in\mathcal H}(\widehat q_u-q_u)^2+
+\frac{1}{|\mathcal C|}\sum_{i\in\mathcal C}(\widehat q_i-a_i)^2+
+\frac{0.1}{|\mathcal E|}\sum_{(u,v)\in\mathcal E}(\widehat q_u-\widehat q_v)^2.
+\end{equation}
+The targets $t_i$, $q_u$ and $a_i$ are heuristic weak scores, not injected corruption labels or property targets.

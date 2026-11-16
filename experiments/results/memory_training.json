@@ -1,0 +1,522 @@
+[
+  {
+    "seed": 0,
+    "pollution_ratio": 0.0,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8073581522057224,
+      "history_prediction_mae": 0.2773183501424183,
+      "current_anchor_mean": 0.8592284349024039,
+      "current_graph_mean": 0.5324438810348511,
+      "current_graph_min": 0.4728478193283081,
+      "current_graph_max": 0.609603226184845,
+      "loss": {
+        "history_loss": 0.09081105887889862,
+        "current_anchor_loss": 0.11449747532606125,
+        "smoothness_loss": 4.913239536108449e-05,
+        "total_loss": 0.4777466356754303
+      }
+    }
+  },
+  {
+    "seed": 0,
+    "pollution_ratio": 0.1,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8073581522057224,
+      "history_prediction_mae": 0.27716512414681804,
+      "current_anchor_mean": 0.8100956709457711,
+      "current_graph_mean": 0.5322332382202148,
+      "current_graph_min": 0.47326910495758057,
+      "current_graph_max": 0.611783504486084,
+      "loss": {
+        "history_loss": 0.09094417840242386,
+        "current_anchor_loss": 0.08664572983980179,
+        "smoothness_loss": 0.00011443429684732109,
+        "total_loss": 0.4504338800907135
+      }
+    }
+  },
+  {
+    "seed": 0,
+    "pollution_ratio": 0.3,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8073581522057224,
+      "history_prediction_mae": 0.27710306919234884,
+      "current_anchor_mean": 0.7278850033220515,
+      "current_graph_mean": 0.5317888259887695,
+      "current_graph_min": 0.47287848591804504,
+      "current_graph_max": 0.6220842003822327,
+      "loss": {
+        "history_loss": 0.0912431925535202,
+        "current_anchor_loss": 0.05285339802503586,
+        "smoothness_loss": 0.00019393306865822524,
+        "total_loss": 0.41784557700157166
+      }
+    }
+  },
+  {
+    "seed": 0,
+    "pollution_ratio": 0.5,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8073581522057224,
+      "history_prediction_mae": 0.27736316374558107,
+      "current_anchor_mean": 0.6479268387674001,
+      "current_graph_mean": 0.5319621562957764,
+      "current_graph_min": 0.4761546552181244,
+      "current_graph_max": 0.6209640502929688,
+      "loss": {
+        "history_loss": 0.09148189425468445,
+        "current_anchor_loss": 0.02800493873655796,
+        "smoothness_loss": 0.000288426352199167,
+        "total_loss": 0.3939613699913025
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "pollution_ratio": 0.0,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8026154369182581,
+      "history_prediction_mae": 0.1849294014955306,
+      "current_anchor_mean": 0.8726012471690816,
+      "current_graph_mean": 0.6317344307899475,
+      "current_graph_min": 0.5353496074676514,
+      "current_graph_max": 0.7169526219367981,
+      "loss": {
+        "history_loss": 0.04230200871825218,
+        "current_anchor_loss": 0.06498520821332932,
+        "smoothness_loss": 0.0002057839883491397,
+        "total_loss": 0.23421381413936615
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "pollution_ratio": 0.1,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8026154369182581,
+      "history_prediction_mae": 0.18481368976278886,
+      "current_anchor_mean": 0.8019134183523006,
+      "current_graph_mean": 0.6296849250793457,
+      "current_graph_min": 0.4891834557056427,
+      "current_graph_max": 0.7199446558952332,
+      "loss": {
+        "history_loss": 0.04241453483700752,
+        "current_anchor_loss": 0.03834614157676697,
+        "smoothness_loss": 0.0003979172033723444,
+        "total_loss": 0.20804406702518463
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "pollution_ratio": 0.3,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8026154369182581,
+      "history_prediction_mae": 0.18500744795991764,
+      "current_anchor_mean": 0.7272103822723505,
+      "current_graph_mean": 0.6191463470458984,
+      "current_graph_min": 0.48291221261024475,
+      "current_graph_max": 0.7155417799949646,
+      "loss": {
+        "history_loss": 0.04267486557364464,
+        "current_anchor_loss": 0.022279053926467896,
+        "smoothness_loss": 0.000644186045974493,
+        "total_loss": 0.19304293394088745
+      }
+    }
+  },
+  {
+    "seed": 1,
+    "pollution_ratio": 0.5,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8026154369182581,
+      "history_prediction_mae": 0.1854812862680679,
+      "current_anchor_mean": 0.6506077117492525,
+      "current_graph_mean": 0.6056119203567505,
+      "current_graph_min": 0.42092475295066833,
+      "current_graph_max": 0.7202575206756592,
+      "loss": {
+        "history_loss": 0.04288509860634804,
+        "current_anchor_loss": 0.012932918034493923,
+        "smoothness_loss": 0.000992997782304883,
+        "total_loss": 0.18457260727882385
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "pollution_ratio": 0.0,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8032686926753684,
+      "history_prediction_mae": 0.19350055535966476,
+      "current_anchor_mean": 0.8638715503002189,
+      "current_graph_mean": 0.6386128664016724,
+      "current_graph_min": 0.5003961324691772,
+      "current_graph_max": 0.7283376455307007,
+      "loss": {
+        "history_loss": 0.044987212866544724,
+        "current_anchor_loss": 0.05788308009505272,
+        "smoothness_loss": 0.0003393474326003343,
+        "total_loss": 0.2378658652305603
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "pollution_ratio": 0.1,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8032686926753684,
+      "history_prediction_mae": 0.1942741659886331,
+      "current_anchor_mean": 0.8060393875963445,
+      "current_graph_mean": 0.630547285079956,
+      "current_graph_min": 0.44801971316337585,
+      "current_graph_max": 0.8064842224121094,
+      "loss": {
+        "history_loss": 0.04528377205133438,
+        "current_anchor_loss": 0.038347821682691574,
+        "smoothness_loss": 0.0006249178550206125,
+        "total_loss": 0.2195454090833664
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "pollution_ratio": 0.3,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8032686926753684,
+      "history_prediction_mae": 0.1938780658507462,
+      "current_anchor_mean": 0.7313171713210643,
+      "current_graph_mean": 0.6130368113517761,
+      "current_graph_min": 0.45545694231987,
+      "current_graph_max": 0.8676920533180237,
+      "loss": {
+        "history_loss": 0.04513062164187431,
+        "current_anchor_loss": 0.024082522839307785,
+        "smoothness_loss": 0.0010606736177578568,
+        "total_loss": 0.20471107959747314
+      }
+    }
+  },
+  {
+    "seed": 2,
+    "pollution_ratio": 0.5,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8032686926753684,
+      "history_prediction_mae": 0.19421273531408267,
+      "current_anchor_mean": 0.6526562061633874,
+      "current_graph_mean": 0.5918880701065063,
+      "current_graph_min": 0.457726389169693,
+      "current_graph_max": 0.7952810525894165,
+      "loss": {
+        "history_loss": 0.045276544988155365,
+        "current_anchor_loss": 0.013504027388989925,
+        "smoothness_loss": 0.001589172170497477,
+        "total_loss": 0.19476912915706635
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "pollution_ratio": 0.0,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8014815631662919,
+      "history_prediction_mae": 0.30054413945453534,
+      "current_anchor_mean": 0.8595023696036217,
+      "current_graph_mean": 0.5066438317298889,
+      "current_graph_min": 0.43272531032562256,
+      "current_graph_max": 0.5763630270957947,
+      "loss": {
+        "history_loss": 0.10188636928796768,
+        "current_anchor_loss": 0.13136577606201172,
+        "smoothness_loss": 8.650030940771103e-05,
+        "total_loss": 0.5389198660850525
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "pollution_ratio": 0.1,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8014815631662919,
+      "history_prediction_mae": 0.30046534062402613,
+      "current_anchor_mean": 0.8092928337037155,
+      "current_graph_mean": 0.5048202872276306,
+      "current_graph_min": 0.4147869050502777,
+      "current_graph_max": 0.6773585677146912,
+      "loss": {
+        "history_loss": 0.10192391276359558,
+        "current_anchor_loss": 0.1019880473613739,
+        "smoothness_loss": 0.00023753060668241233,
+        "total_loss": 0.509707510471344
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "pollution_ratio": 0.3,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8014815631662919,
+      "history_prediction_mae": 0.300311379022055,
+      "current_anchor_mean": 0.7283170134777127,
+      "current_graph_mean": 0.4987052083015442,
+      "current_graph_min": 0.4112309515476227,
+      "current_graph_max": 0.6880950927734375,
+      "loss": {
+        "history_loss": 0.10191892832517624,
+        "current_anchor_loss": 0.06478191912174225,
+        "smoothness_loss": 0.0004218881658744067,
+        "total_loss": 0.4724998474121094
+      }
+    }
+  },
+  {
+    "seed": 3,
+    "pollution_ratio": 0.5,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.8014815631662919,
+      "history_prediction_mae": 0.3004618002995494,
+      "current_anchor_mean": 0.6516738970945769,
+      "current_graph_mean": 0.4910370409488678,
+      "current_graph_min": 0.4150826632976532,
+      "current_graph_max": 0.6864582300186157,
+      "loss": {
+        "history_loss": 0.10210190713405609,
+        "current_anchor_loss": 0.038051486015319824,
+        "smoothness_loss": 0.000585937115829438,
+        "total_loss": 0.4465177059173584
+      }
+    }
+  },
+  {
+    "seed": 4,
+    "pollution_ratio": 0.0,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.803636304298148,
+      "history_prediction_mae": 0.1803848105506441,
+      "current_anchor_mean": 0.8635451333770847,
+      "current_graph_mean": 0.6466596126556396,
+      "current_graph_min": 0.5626497864723206,
+      "current_graph_max": 0.7036516666412354,
+      "loss": {
+        "history_loss": 0.03969778120517731,
+        "current_anchor_loss": 0.05534649267792702,
+        "smoothness_loss": 0.00017092758207581937,
+        "total_loss": 0.2141547054052353
+      }
+    }
+  },
+  {
+    "seed": 4,
+    "pollution_ratio": 0.1,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.803636304298148,
+      "history_prediction_mae": 0.18010005289925546,
+      "current_anchor_mean": 0.8121552838736473,
+      "current_graph_mean": 0.6387307643890381,
+      "current_graph_min": 0.48099806904792786,
+      "current_graph_max": 0.6995018720626831,
+      "loss": {
+        "history_loss": 0.039614688605070114,
+        "current_anchor_loss": 0.03959902375936508,
+        "smoothness_loss": 0.00034279670217074454,
+        "total_loss": 0.1980920433998108
+      }
+    }
+  },
+  {
+    "seed": 4,
+    "pollution_ratio": 0.3,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.803636304298148,
+      "history_prediction_mae": 0.18016209634257763,
+      "current_anchor_mean": 0.7322573188207535,
+      "current_graph_mean": 0.625285804271698,
+      "current_graph_min": 0.4774952530860901,
+      "current_graph_max": 0.7267071008682251,
+      "loss": {
+        "history_loss": 0.03971673920750618,
+        "current_anchor_loss": 0.021902810782194138,
+        "smoothness_loss": 0.0006484472542069852,
+        "total_loss": 0.18083462119102478
+      }
+    }
+  },
+  {
+    "seed": 4,
+    "pollution_ratio": 0.5,
+    "summary": {
+      "status": "scored",
+      "history_node_count": 800,
+      "current_node_count": 900,
+      "selected_feature_count": 18,
+      "edge_count": 14300,
+      "history_knn": 8,
+      "current_knn": 6,
+      "graph_mode": "frozen_history_directed",
+      "history_quality_mean": 0.803636304298148,
+      "history_prediction_mae": 0.1802806653292319,
+      "current_anchor_mean": 0.6545018074615893,
+      "current_graph_mean": 0.6081873178482056,
+      "current_graph_min": 0.47692742943763733,
+      "current_graph_max": 0.7221859693527222,
+      "loss": {
+        "history_loss": 0.03975054621696472,
+        "current_anchor_loss": 0.011729825288057327,
+        "smoothness_loss": 0.0009616667521186173,
+        "total_loss": 0.170828178524971
+      }
+    }
+  }
+]
